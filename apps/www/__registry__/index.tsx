@@ -2683,7 +2683,7 @@ export const Index: Record<string, any> = {
     },
     "login-01": {
       name: "login-01",
-      description: "A simple login form.",
+      description: "A simple login form. UPDATED",
       type: "registry:block",
       registryDependencies: ["button","card","input","label"],
       files: ["registry/new-york/block/login-01/page.tsx","registry/new-york/block/login-01/components/login-form.tsx"],
