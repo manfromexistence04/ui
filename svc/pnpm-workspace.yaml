@@ -1,0 +1,4 @@
+packages:
+  - 'packages/*'
+  - 'community-adder-template'
+  - '!.test-tmp/**'
