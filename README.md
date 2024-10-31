@@ -1,5 +1,11 @@
 # shadcn/ui
 
+```
+npm install -g npm@10.9.0
+npm install -g bun
+pnpm self-update
+```
+
 Accessible and customizable components that you can copy and paste into your apps. Free. Open Source. **Use this to build your own component library**.
 
 ![hero](apps/www/public/og.jpg)
