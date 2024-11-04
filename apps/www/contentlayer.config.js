@@ -43,6 +43,14 @@ export const Doc = defineDocumentType(() => ({
   filePathPattern: `docs/**/*.mdx`,
   contentType: "mdx",
   fields: {
+    date: {
+      type: "any",
+      required: false,
+    },
+    author: {
+      type: "string",
+      required: false,
+    },
     title: {
       type: "string",
       required: true,

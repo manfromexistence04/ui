@@ -26,6 +26,18 @@ export const examples: Registry = [
     files: ["example/alert-dialog-demo.tsx"],
   },
   {
+    name: "animated-beam-multiple-outputs",
+    type: "registry:example",
+    registryDependencies: ["animated-beam"],
+    files: ["example/animated-beam-multiple-outputs.tsx"],
+  },
+  {
+    name: "animated-list-demo",
+    type: "registry:example",
+    registryDependencies: ["animated-list"],
+    files: ["example/animated-list-demo.tsx"],
+  },
+  {
     name: "aspect-ratio-demo",
     type: "registry:example",
     registryDependencies: ["aspect-ratio"],
@@ -60,6 +72,20 @@ export const examples: Registry = [
     type: "registry:example",
     registryDependencies: ["badge"],
     files: ["example/badge-secondary.tsx"],
+  },
+  {
+    name: "bento-demo",
+    type: "registry:example",
+    registryDependencies: [
+      "bento-grid",
+      "marquee",
+      "animated-list-demo",
+      "animated-beam-multiple-outputs",
+      "shadcn:command",
+      "shadcn:calendar",
+    ],
+    dependencies: ["@radix-ui/react-icons"],
+    files: ["example/bento-demo.tsx"],
   },
   {
     name: "breadcrumb-demo",
@@ -296,10 +322,60 @@ export const examples: Registry = [
     files: ["example/command-dialog.tsx"],
   },
   {
+    name: "confetti-demo",
+    type: "registry:example",
+    files: ["example/confetti-demo.tsx"],
+  },
+  {
+    name: "confetti-basic-cannon",
+    type: "registry:example",
+    files: ["example/confetti-basic-cannon.tsx"],
+  },
+  {
+    name: "confetti-random-direction",
+    type: "registry:example",
+    files: ["example/confetti-random-direction.tsx"],
+  },
+  {
+    name: "confetti-fireworks",
+    type: "registry:example",
+    files: ["example/confetti-fireworks.tsx"],
+  },
+  {
+    name: "confetti-stars",
+    type: "registry:example",
+    files: ["example/confetti-stars.tsx"],
+  },
+  {
+    name: "confetti-side-cannons",
+    type: "registry:example",
+    files: ["example/confetti-side-cannons.tsx"],
+  },
+  {
+    name: "confetti-custom-shapes",
+    type: "registry:example",
+    files: ["example/confetti-custom-shapes.tsx"],
+  },
+  {
+    name: "confetti-emoji",
+    type: "registry:example",
+    files: ["example/confetti-emoji.tsx"],
+  },
+  {
     name: "context-menu-demo",
     type: "registry:example",
     registryDependencies: ["context-menu"],
     files: ["example/context-menu-demo.tsx"],
+  },
+  {
+    name: "cool-mode-demo",
+    type: "registry:example",
+    files: ["example/cool-mode-demo.tsx"],
+  },
+  {
+    name: "cool-mode-custom",
+    type: "registry:example",
+    files: ["example/cool-mode-custom.tsx"],
   },
   {
     name: "data-table-demo",
@@ -340,6 +416,12 @@ export const examples: Registry = [
     type: "registry:example",
     registryDependencies: ["dialog"],
     files: ["example/dialog-demo.tsx"],
+  },
+  {
+    name: "dock-demo",
+    type: "registry:example",
+    registryDependencies: ["dock"],
+    files: ["example/dock-demo.tsx"],
   },
   {
     name: "dialog-close-button",
