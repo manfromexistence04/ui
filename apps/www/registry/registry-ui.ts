@@ -59,6 +59,12 @@ export const ui: Registry = [
     files: ["ui/badge.tsx"],
   },
   {
+    name: "bento-grid",
+    type: "registry:ui",
+    dependencies: ["@radix-ui/react-icons"],
+    files: ["ui/bento-grid.tsx"],
+  },
+  {
     name: "breadcrumb",
     type: "registry:ui",
     dependencies: ["@radix-ui/react-slot"],
@@ -116,16 +122,33 @@ export const ui: Registry = [
     files: ["ui/command.tsx"],
   },
   {
+    name: "confetti",
+    type: "registry:ui",
+    dependencies: ["canvas-confetti", "@types/canvas-confetti"],
+    files: ["ui/confetti.tsx"],
+  },
+  {
     name: "context-menu",
     type: "registry:ui",
     dependencies: ["@radix-ui/react-context-menu"],
     files: ["ui/context-menu.tsx"],
   },
   {
+    name: "cool-mode",
+    type: "registry:ui",
+    files: ["ui/cool-mode.tsx"],
+  },
+  {
     name: "dialog",
     type: "registry:ui",
     dependencies: ["@radix-ui/react-dialog"],
     files: ["ui/dialog.tsx"],
+  },
+  {
+    name: "dock",
+    type: "registry:ui",
+    dependencies: ["framer-motion"],
+    files: ["ui/dock.tsx"],
   },
   {
     name: "drawer",

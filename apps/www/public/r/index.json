@@ -105,6 +105,19 @@
     ]
   },
   {
+    "name": "bento-grid",
+    "type": "registry:ui",
+    "dependencies": [
+      "@radix-ui/react-icons"
+    ],
+    "files": [
+      {
+        "path": "ui/bento-grid.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
     "name": "breadcrumb",
     "type": "registry:ui",
     "dependencies": [
@@ -233,6 +246,20 @@
     ]
   },
   {
+    "name": "confetti",
+    "type": "registry:ui",
+    "dependencies": [
+      "canvas-confetti",
+      "@types/canvas-confetti"
+    ],
+    "files": [
+      {
+        "path": "ui/confetti.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
     "name": "context-menu",
     "type": "registry:ui",
     "dependencies": [
@@ -246,6 +273,16 @@
     ]
   },
   {
+    "name": "cool-mode",
+    "type": "registry:ui",
+    "files": [
+      {
+        "path": "ui/cool-mode.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
     "name": "dialog",
     "type": "registry:ui",
     "dependencies": [
@@ -254,6 +291,19 @@
     "files": [
       {
         "path": "ui/dialog.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "dock",
+    "type": "registry:ui",
+    "dependencies": [
+      "framer-motion"
+    ],
+    "files": [
+      {
+        "path": "ui/dock.tsx",
         "type": "registry:ui"
       }
     ]

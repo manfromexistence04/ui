@@ -77,6 +77,18 @@ export const Index: Record<string, any> = {
       subcategory: "",
       chunks: []
     },
+    "bento-grid": {
+      name: "bento-grid",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: ["registry/new-york/ui/bento-grid.tsx"],
+      component: React.lazy(() => import("@/registry/new-york/ui/bento-grid.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "breadcrumb": {
       name: "breadcrumb",
       description: "",
@@ -185,6 +197,18 @@ export const Index: Record<string, any> = {
       subcategory: "",
       chunks: []
     },
+    "confetti": {
+      name: "confetti",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: ["registry/new-york/ui/confetti.tsx"],
+      component: React.lazy(() => import("@/registry/new-york/ui/confetti.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "context-menu": {
       name: "context-menu",
       description: "",
@@ -197,6 +221,18 @@ export const Index: Record<string, any> = {
       subcategory: "",
       chunks: []
     },
+    "cool-mode": {
+      name: "cool-mode",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: ["registry/new-york/ui/cool-mode.tsx"],
+      component: React.lazy(() => import("@/registry/new-york/ui/cool-mode.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "dialog": {
       name: "dialog",
       description: "",
@@ -204,6 +240,18 @@ export const Index: Record<string, any> = {
       registryDependencies: undefined,
       files: ["registry/new-york/ui/dialog.tsx"],
       component: React.lazy(() => import("@/registry/new-york/ui/dialog.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "dock": {
+      name: "dock",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: ["registry/new-york/ui/dock.tsx"],
+      component: React.lazy(() => import("@/registry/new-york/ui/dock.tsx")),
       source: "",
       category: "",
       subcategory: "",
@@ -4038,6 +4086,18 @@ export const Index: Record<string, any> = {
       subcategory: "",
       chunks: []
     },
+    "bento-grid": {
+      name: "bento-grid",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: ["registry/default/ui/bento-grid.tsx"],
+      component: React.lazy(() => import("@/registry/default/ui/bento-grid.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "breadcrumb": {
       name: "breadcrumb",
       description: "",
@@ -4146,6 +4206,18 @@ export const Index: Record<string, any> = {
       subcategory: "",
       chunks: []
     },
+    "confetti": {
+      name: "confetti",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: ["registry/default/ui/confetti.tsx"],
+      component: React.lazy(() => import("@/registry/default/ui/confetti.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "context-menu": {
       name: "context-menu",
       description: "",
@@ -4158,6 +4230,18 @@ export const Index: Record<string, any> = {
       subcategory: "",
       chunks: []
     },
+    "cool-mode": {
+      name: "cool-mode",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: ["registry/default/ui/cool-mode.tsx"],
+      component: React.lazy(() => import("@/registry/default/ui/cool-mode.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "dialog": {
       name: "dialog",
       description: "",
@@ -4165,6 +4249,18 @@ export const Index: Record<string, any> = {
       registryDependencies: undefined,
       files: ["registry/default/ui/dialog.tsx"],
       component: React.lazy(() => import("@/registry/default/ui/dialog.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "dock": {
+      name: "dock",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: ["registry/default/ui/dock.tsx"],
+      component: React.lazy(() => import("@/registry/default/ui/dock.tsx")),
       source: "",
       category: "",
       subcategory: "",

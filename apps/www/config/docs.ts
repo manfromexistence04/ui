@@ -144,6 +144,21 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Bento Grid",
+          href: "/docs/components/bento-grid",
+          items: [],
+        },
+        {
+          title: "Confetti",
+          href: "/docs/components/confetti",
+          items: [],
+        },
+        {
+          title: "Cool Mode",
+          href: "/docs/components/cool-mode",
+          items: [],
+        },
+        {
           title: "Spinner",
           href: "/docs/components/spinner",
           items: [],
