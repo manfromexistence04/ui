@@ -29,15 +29,15 @@ export function MainNav() {
           Docs
         </Link>
         <Link
-          href="/renderers"
+          href="/blocks"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/renderers")
+            pathname?.startsWith("/blocks")
               ? "text-foreground"
               : "text-foreground/60"
           )}
         >
-          Renderers
+          Blocks
         </Link>
         <Link
           href="/themes"

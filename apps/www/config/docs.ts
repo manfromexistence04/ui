@@ -13,8 +13,8 @@ export const docsConfig: DocsConfig = {
       href: "/docs",
     },
     {
-      title: "Renderers",
-      href: "/renderers",
+      title: "Blocks",
+      href: "/blocks",
     },
     {
       title: "Themes",
