@@ -29,39 +29,15 @@ export function MainNav() {
           Docs
         </Link>
         <Link
-          href="/docs/components"
+          href="/renderers"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/docs/components") &&
-              !pathname?.startsWith("/docs/component/chart")
+            pathname?.startsWith("/renderers")
               ? "text-foreground"
               : "text-foreground/60"
           )}
         >
-          Components
-        </Link>
-        <Link
-          href="/blocks"
-          className={cn(
-            "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/blocks")
-              ? "text-foreground"
-              : "text-foreground/60"
-          )}
-        >
-          Blocks
-        </Link>
-        <Link
-          href="/charts"
-          className={cn(
-            "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/docs/component/chart") ||
-              pathname?.startsWith("/charts")
-              ? "text-foreground"
-              : "text-foreground/60"
-          )}
-        >
-          Charts
+          Renderers
         </Link>
         <Link
           href="/themes"
@@ -75,26 +51,26 @@ export function MainNav() {
           Themes
         </Link>
         <Link
-          href="/examples"
+          href="/canvases"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/examples")
+            pathname?.startsWith("/canvases")
               ? "text-foreground"
               : "text-foreground/60"
           )}
         >
-          Examples
+          Canvases
         </Link>
         <Link
-          href="/colors"
+          href="/visualizations"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/colors")
+            pathname?.startsWith("/visualizations")
               ? "text-foreground"
               : "text-foreground/60"
           )}
         >
-          Colors
+          Visualizations
         </Link>
       </nav>
     </div>
