@@ -55,7 +55,10 @@ const strokeClasses = {
   white: "stroke-background",
 } as StrokeProps
 
-export const Spinner = ({ size = "md", color = "slate" }: SpinnerProps) => {
+export const SpokeSpinner = ({
+  size = "md",
+  color = "slate",
+}: SpinnerProps) => {
   return (
     <div aria-label="Loading..." role="status">
       <Loader

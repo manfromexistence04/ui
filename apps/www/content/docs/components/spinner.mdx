@@ -45,30 +45,6 @@ npm install @radix-ui/react-slot
 
 <Step>Update the import paths to match your project setup.</Step>
 
-<Step>Update `tailwind.config.js`</Step>
-
-Add the following animations to your `tailwind.config.js` file:
-
-```js title="tailwind.config.js" {5-18}
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  theme: {
-    extend: {
-        keyframes: {
-            'spinner-leaf-fade': {
-                '0%, 100%': { opacity: '0' },
-                '50%': { opacity: '1' },
-            },
-        },
-        animation: {
-            'spinner-leaf-fade': 'spinner-leaf-fade 800ms linear infinite',
-        }
-    },
-  },
-}
-```
-
-
 </Steps>
 
 </TabsContent>
@@ -82,5 +58,14 @@ import { Spinner } from "@/components/ui/spinner"
 ```
 
 ```tsx
-<Spinner size="sm" className="bg-background" />
+<Spinner />
 ```
+
+## Examples
+
+### Round
+
+<ComponentPreview
+  name="spinner-round"
+  description="An input OTP with alphanumeric pattern."
+/>

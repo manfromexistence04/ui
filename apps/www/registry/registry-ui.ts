@@ -320,6 +320,11 @@ export const ui: Registry = [
     files: ["ui/sonner.tsx"],
   },
   {
+    name: "spinner",
+    type: "registry:ui",
+    files: ["ui/spinner.tsx"],
+  },
+  {
     name: "switch",
     type: "registry:ui",
     dependencies: ["@radix-ui/react-switch"],

@@ -602,6 +602,16 @@
     ]
   },
   {
+    "name": "spinner",
+    "type": "registry:ui",
+    "files": [
+      {
+        "path": "ui/spinner.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
     "name": "switch",
     "type": "registry:ui",
     "dependencies": [

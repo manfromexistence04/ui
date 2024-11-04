@@ -9,6 +9,7 @@
     "build:registry": "tsx --tsconfig ./tsconfig.scripts.json ./scripts/build-registry.mts && prettier --loglevel silent --write \"registry/**/*.{ts,tsx,mdx}\" --cache",
     "registry:capture": "tsx --tsconfig ./tsconfig.scripts.json ./scripts/capture-screenshots.mts",
     "build:docs": "contentlayer2 build",
+    "build:components": "contentlayer2 build && pnpm build:registry && pnpm lint:fix && pnpm format:write",
     "seed:tasks": "tsx --tsconfig ./tsconfig.scripts.json ./app/(app)/examples/tasks/data/seed.ts",
     "start": "next start",
     "lint": "next lint",

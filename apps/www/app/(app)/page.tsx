@@ -10,12 +10,19 @@ import {
   PageHeaderDescription,
   PageHeaderHeading,
 } from "@/components/page-header"
+import { RoundSpinner, SpokeSpinner } from "@/components/spinner"
 import CardsNewYork from "@/registry/new-york/example/cards"
 import { Button } from "@/registry/new-york/ui/button"
 
 export default function IndexPage() {
   return (
     <div className="container relative">
+      {/* <h1>Spinner</h1> */}
+      {/* <SpokeSpinner />
+      <RoundSpinner /> */}
+
+      {/* <Spinner size="sm" className="bg-black dark:bg-white" /> */}
+
       <PageHeader>
         <Announcement />
         <PageHeaderHeading>Build your component library</PageHeaderHeading>
