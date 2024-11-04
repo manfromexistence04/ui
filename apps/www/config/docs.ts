@@ -144,6 +144,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Spinner",
+          href: "/docs/components/spinner",
+          items: [],
+        },
+        {
           title: "Power Mode",
           href: "/docs/components/power-mode",
           items: [],
