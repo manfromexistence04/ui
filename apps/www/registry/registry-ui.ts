@@ -2,6 +2,30 @@ import { Registry } from "@/registry/schema"
 
 export const ui: Registry = [
   {
+    name: "tags-input",
+    type: "registry:ui",
+    registryDependencies: ["button", "input", "tags-input"],
+    files: ["ui/tags-input.tsx"],
+  },
+  {
+    name: "password-input",
+    type: "registry:ui",
+    registryDependencies: ["button", "input", "password-input"],
+    files: ["ui/password-input.tsx"],
+  },
+  {
+    name: "file-upload",
+    type: "registry:ui",
+    registryDependencies: ["button", "input", "file-upload"],
+    files: ["ui/file-upload.tsx"],
+  },
+  {
+    name: "phone-input",
+    type: "registry:ui",
+    registryDependencies: ["popover", "command", "button", "phone-input"],
+    files: ["ui/phone-input.tsx"],
+  },
+  {
     name: "smart-date-time-picker",
     type: "registry:ui",
     registryDependencies: [

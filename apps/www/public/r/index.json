@@ -1,5 +1,66 @@
 [
   {
+    "name": "tags-input",
+    "type": "registry:ui",
+    "registryDependencies": [
+      "button",
+      "input",
+      "tags-input"
+    ],
+    "files": [
+      {
+        "path": "ui/tags-input.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "password-input",
+    "type": "registry:ui",
+    "registryDependencies": [
+      "button",
+      "input",
+      "password-input"
+    ],
+    "files": [
+      {
+        "path": "ui/password-input.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "file-upload",
+    "type": "registry:ui",
+    "registryDependencies": [
+      "button",
+      "input",
+      "file-upload"
+    ],
+    "files": [
+      {
+        "path": "ui/file-upload.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "phone-input",
+    "type": "registry:ui",
+    "registryDependencies": [
+      "popover",
+      "command",
+      "button",
+      "phone-input"
+    ],
+    "files": [
+      {
+        "path": "ui/phone-input.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
     "name": "smart-date-time-picker",
     "type": "registry:ui",
     "registryDependencies": [

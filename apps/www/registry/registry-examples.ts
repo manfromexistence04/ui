@@ -2,6 +2,30 @@ import { Registry } from "@/registry/schema"
 
 export const examples: Registry = [
   {
+    name: "tags-input-demo",
+    type: "registry:example",
+    registryDependencies: ["button", "form", "tags-input-demo"],
+    files: ["example/tags-input-demo.tsx"],
+  },
+  {
+    name: "password-input-demo",
+    type: "registry:example",
+    registryDependencies: ["button", "form", "password-input-demo"],
+    files: ["example/password-input-demo.tsx"],
+  },
+  {
+    name: "file-upload-demo",
+    type: "registry:example",
+    registryDependencies: ["button", "form", "file-upload-demo"],
+    files: ["example/file-upload-demo.tsx"],
+  },
+  {
+    name: "phone-input-demo",
+    type: "registry:example",
+    registryDependencies: ["button", "form", "phone-input-demo"],
+    files: ["example/phone-input-demo.tsx"],
+  },
+  {
     name: "smart-date-time-picker-demo",
     type: "registry:example",
     registryDependencies: ["button", "form", "smart-date-time-picker-demo"],

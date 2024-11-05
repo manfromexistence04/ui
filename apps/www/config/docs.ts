@@ -179,8 +179,29 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Smart Date Time Picker",
+          href: "/docs/components/smart-date-time-picker",
+          items: [],
+        },
+        {
           title: "Date Time Picker",
           href: "/docs/components/date-time-picker",
+          items: [],
+        },
+        {
+          title: "Phone Input",
+          href: "/docs/components/phone-input",
+          items: [],
+        },
+        {
+          title: "Password Input",
+          href: "/docs/components/password-input",
+          items: [],
+        },
+
+        {
+          title: "Tags",
+          href: "/docs/components/tag",
           items: [],
         },
         {
@@ -191,21 +212,6 @@ export const docsConfig: DocsConfig = {
         {
           title: "Tablist",
           href: "/docs/components/tablist",
-          items: [],
-        },
-        {
-          title: "Tag",
-          href: "/docs/components/tag",
-          items: [],
-        },
-        {
-          title: "Password Input",
-          href: "/docs/components/password-input",
-          items: [],
-        },
-        {
-          title: "Phone Number Input",
-          href: "/docs/components/phone-number-input",
           items: [],
         },
         {

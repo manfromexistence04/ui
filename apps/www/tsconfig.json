@@ -32,6 +32,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".contentlayer/generated"
-  ],
+, "content/docs/components/phone-input.mdx"  ],
   "exclude": ["node_modules", "./scripts/build-registry.mts", "__registry__"]
 }
