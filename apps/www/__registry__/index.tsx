@@ -5,6 +5,30 @@ import * as React from "react"
 
 export const Index: Record<string, any> = {
   "new-york": {
+    "multi-select": {
+      name: "multi-select",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: ["badge","command"],
+      files: ["registry/new-york/ui/multi-select.tsx"],
+      component: React.lazy(() => import("@/registry/new-york/ui/multi-select.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "location-input": {
+      name: "location-input",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: ["button","popover","scroll-area","command"],
+      files: ["registry/new-york/ui/location-input.tsx"],
+      component: React.lazy(() => import("@/registry/new-york/ui/location-input.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "accordion": {
       name: "accordion",
       description: "",
@@ -636,6 +660,30 @@ export const Index: Record<string, any> = {
       registryDependencies: undefined,
       files: ["registry/new-york/ui/tooltip.tsx"],
       component: React.lazy(() => import("@/registry/new-york/ui/tooltip.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "multi-select-demo": {
+      name: "multi-select-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["multi-select"],
+      files: ["registry/new-york/example/multi-select-demo.tsx"],
+      component: React.lazy(() => import("@/registry/new-york/example/multi-select-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "location-input-demo": {
+      name: "location-input-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["location-input"],
+      files: ["registry/new-york/example/location-input-demo.tsx"],
+      component: React.lazy(() => import("@/registry/new-york/example/location-input-demo.tsx")),
       source: "",
       category: "",
       subcategory: "",
@@ -4038,6 +4086,30 @@ export const Index: Record<string, any> = {
       chunks: []
     },
   },  "default": {
+    "multi-select": {
+      name: "multi-select",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: ["badge","command"],
+      files: ["registry/default/ui/multi-select.tsx"],
+      component: React.lazy(() => import("@/registry/default/ui/multi-select.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "location-input": {
+      name: "location-input",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: ["button","popover","scroll-area","command"],
+      files: ["registry/default/ui/location-input.tsx"],
+      component: React.lazy(() => import("@/registry/default/ui/location-input.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "accordion": {
       name: "accordion",
       description: "",
@@ -4669,6 +4741,30 @@ export const Index: Record<string, any> = {
       registryDependencies: undefined,
       files: ["registry/default/ui/tooltip.tsx"],
       component: React.lazy(() => import("@/registry/default/ui/tooltip.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "multi-select-demo": {
+      name: "multi-select-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["multi-select"],
+      files: ["registry/default/example/multi-select-demo.tsx"],
+      component: React.lazy(() => import("@/registry/default/example/multi-select-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "location-input-demo": {
+      name: "location-input-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["location-input"],
+      files: ["registry/default/example/location-input-demo.tsx"],
+      component: React.lazy(() => import("@/registry/default/example/location-input-demo.tsx")),
       source: "",
       category: "",
       subcategory: "",

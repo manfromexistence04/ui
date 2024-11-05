@@ -1,0 +1,15 @@
+{
+  "name": "multi-select-demo",
+  "type": "registry:example",
+  "registryDependencies": [
+    "multi-select"
+  ],
+  "files": [
+    {
+      "path": "example/multi-select-demo.tsx",
+      "content": "import * as React from \"react\"\n\nimport {\n  MultiSelector,\n  MultiSelectorContent,\n  MultiSelectorInput,\n  MultiSelectorItem,\n  MultiSelectorList,\n  MultiSelectorTrigger,\n} from \"@/registry/new-york/ui/multi-select\"\n\nexport default function SelectDemo() {\n  return (\n    <MultiSelector\n      values={[]}\n      onValuesChange={function (value: string[]): void {\n        throw new Error(\"Function not implemented.\")\n      }}\n      loop\n      className=\"max-w-xs\"\n    >\n      <MultiSelectorTrigger>\n        <MultiSelectorInput placeholder=\"Select languages\" />\n      </MultiSelectorTrigger>\n      <MultiSelectorContent>\n        <MultiSelectorList>\n          <MultiSelectorItem value={\"React\"}>React</MultiSelectorItem>\n          <MultiSelectorItem value={\"Vue\"}>Vue</MultiSelectorItem>\n          <MultiSelectorItem value={\"Svelte\"}>Svelte</MultiSelectorItem>\n        </MultiSelectorList>\n      </MultiSelectorContent>\n    </MultiSelector>\n  )\n}\n",
+      "type": "registry:example",
+      "target": ""
+    }
+  ]
+}

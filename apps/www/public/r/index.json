@@ -1,5 +1,35 @@
 [
   {
+    "name": "multi-select",
+    "type": "registry:ui",
+    "registryDependencies": [
+      "badge",
+      "command"
+    ],
+    "files": [
+      {
+        "path": "ui/multi-select.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "location-input",
+    "type": "registry:ui",
+    "registryDependencies": [
+      "button",
+      "popover",
+      "scroll-area",
+      "command"
+    ],
+    "files": [
+      {
+        "path": "ui/location-input.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
     "name": "accordion",
     "type": "registry:ui",
     "dependencies": [

@@ -209,8 +209,8 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Multiselect",
-          href: "/docs/components/multiselect",
+          title: "Multi Select",
+          href: "/docs/components/multi-select",
           items: [],
         },
         {

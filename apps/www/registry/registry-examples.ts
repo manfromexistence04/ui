@@ -2,6 +2,18 @@ import { Registry } from "@/registry/schema"
 
 export const examples: Registry = [
   {
+    name: "multi-select-demo",
+    type: "registry:example",
+    registryDependencies: ["multi-select"],
+    files: ["example/multi-select-demo.tsx"],
+  },
+  {
+    name: "location-input-demo",
+    type: "registry:example",
+    registryDependencies: ["location-input"],
+    files: ["example/location-input-demo.tsx"],
+  },
+  {
     name: "accordion-demo",
     type: "registry:example",
     registryDependencies: ["accordion"],

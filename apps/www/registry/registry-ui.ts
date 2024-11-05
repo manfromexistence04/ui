@@ -2,6 +2,18 @@ import { Registry } from "@/registry/schema"
 
 export const ui: Registry = [
   {
+    name: "multi-select",
+    type: "registry:ui",
+    registryDependencies: ["badge", "command"],
+    files: ["ui/multi-select.tsx"],
+  },
+  {
+    name: "location-input",
+    type: "registry:ui",
+    registryDependencies: ["button", "popover", "scroll-area", "command"],
+    files: ["ui/location-input.tsx"],
+  },
+  {
     name: "accordion",
     type: "registry:ui",
     dependencies: ["@radix-ui/react-accordion"],
