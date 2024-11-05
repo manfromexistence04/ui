@@ -159,6 +159,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Particles",
+          href: "/docs/components/particles",
+          items: [],
+        },
+        {
           title: "Spinner",
           href: "/docs/components/spinner",
           items: [],
@@ -166,6 +171,46 @@ export const docsConfig: DocsConfig = {
         {
           title: "Feedback",
           href: "/docs/components/feedback",
+          items: [],
+        },
+        {
+          title: "Location Picker",
+          href: "/docs/components/location-picker",
+          items: [],
+        },
+        {
+          title: "Date Time Picker",
+          href: "/docs/components/date-time-picker",
+          items: [],
+        },
+        {
+          title: "File Upload",
+          href: "/docs/components/file-upload",
+          items: [],
+        },
+        {
+          title: "Tablist",
+          href: "/docs/components/tablist",
+          items: [],
+        },
+        {
+          title: "Tag",
+          href: "/docs/components/tag",
+          items: [],
+        },
+        {
+          title: "Password Input",
+          href: "/docs/components/password-input",
+          items: [],
+        },
+        {
+          title: "Phone Number Input",
+          href: "/docs/components/phone-number-input",
+          items: [],
+        },
+        {
+          title: "Multiselect",
+          href: "/docs/components/multiselect",
           items: [],
         },
         {
@@ -198,11 +243,7 @@ export const docsConfig: DocsConfig = {
           href: "/docs/components/vr",
           items: [],
         },
-        {
-          title: "Tag",
-          href: "/docs/components/tag",
-          items: [],
-        },
+
         {
           title: "Color Picker",
           href: "/docs/components/color-picker",
@@ -239,11 +280,6 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Location Picker",
-          href: "/docs/components/location-picker",
-          items: [],
-        },
-        {
           title: "Emoji Picker",
           href: "/docs/components/emoji-picker",
           items: [],
@@ -269,18 +305,8 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "File Upload",
-          href: "/docs/components/file-upload",
-          items: [],
-        },
-        {
           title: "Tooltip",
           href: "/docs/components/tooltip",
-          items: [],
-        },
-        {
-          title: "Tablist",
-          href: "/docs/components/tablist",
           items: [],
         },
         {
