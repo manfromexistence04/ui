@@ -159,11 +159,6 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Particles",
-          href: "/docs/components/particles",
-          items: [],
-        },
-        {
           title: "Spinner",
           href: "/docs/components/spinner",
           items: [],
@@ -243,7 +238,6 @@ export const docsConfig: DocsConfig = {
           href: "/docs/components/vr",
           items: [],
         },
-
         {
           title: "Color Picker",
           href: "/docs/components/color-picker",
@@ -412,6 +406,11 @@ export const docsConfig: DocsConfig = {
         {
           title: "DND",
           href: "/docs/components/dnd",
+          items: [],
+        },
+        {
+          title: "Particles",
+          href: "/docs/components/particles",
           items: [],
         },
         {
