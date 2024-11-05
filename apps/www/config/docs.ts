@@ -200,8 +200,8 @@ export const docsConfig: DocsConfig = {
         },
 
         {
-          title: "Tags",
-          href: "/docs/components/tag",
+          title: "Tags Input",
+          href: "/docs/components/tags-input",
           items: [],
         },
         {
