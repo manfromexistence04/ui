@@ -3,7 +3,8 @@
   "type": "registry:ui",
   "registryDependencies": [
     "badge",
-    "command"
+    "command",
+    "multi-select"
   ],
   "files": [
     {

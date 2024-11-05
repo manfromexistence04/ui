@@ -2,15 +2,39 @@ import { Registry } from "@/registry/schema"
 
 export const ui: Registry = [
   {
+    name: "smart-date-time-picker",
+    type: "registry:ui",
+    registryDependencies: [
+      "popover",
+      "calander",
+      "button",
+      "scroll-area",
+      "smart-date-time-picker",
+    ],
+    files: ["ui/smart-date-time-picker.tsx"],
+  },
+  {
+    name: "date-time-picker",
+    type: "registry:ui",
+    registryDependencies: ["input", "date-time-picker"],
+    files: ["ui/date-time-picker.tsx"],
+  },
+  {
     name: "multi-select",
     type: "registry:ui",
-    registryDependencies: ["badge", "command"],
+    registryDependencies: ["badge", "command", "multi-select"],
     files: ["ui/multi-select.tsx"],
   },
   {
     name: "location-input",
     type: "registry:ui",
-    registryDependencies: ["button", "popover", "scroll-area", "command"],
+    registryDependencies: [
+      "button",
+      "popover",
+      "scroll-area",
+      "command",
+      "location-picker",
+    ],
     files: ["ui/location-input.tsx"],
   },
   {

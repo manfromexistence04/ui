@@ -1,10 +1,42 @@
 [
   {
+    "name": "smart-date-time-picker",
+    "type": "registry:ui",
+    "registryDependencies": [
+      "popover",
+      "calander",
+      "button",
+      "scroll-area",
+      "smart-date-time-picker"
+    ],
+    "files": [
+      {
+        "path": "ui/smart-date-time-picker.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
+    "name": "date-time-picker",
+    "type": "registry:ui",
+    "registryDependencies": [
+      "input",
+      "date-time-picker"
+    ],
+    "files": [
+      {
+        "path": "ui/date-time-picker.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
     "name": "multi-select",
     "type": "registry:ui",
     "registryDependencies": [
       "badge",
-      "command"
+      "command",
+      "multi-select"
     ],
     "files": [
       {
@@ -20,7 +52,8 @@
       "button",
       "popover",
       "scroll-area",
-      "command"
+      "command",
+      "location-picker"
     ],
     "files": [
       {

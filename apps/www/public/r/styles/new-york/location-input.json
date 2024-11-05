@@ -5,7 +5,8 @@
     "button",
     "popover",
     "scroll-area",
-    "command"
+    "command",
+    "location-picker"
   ],
   "files": [
     {

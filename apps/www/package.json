@@ -58,6 +58,7 @@
     "@vercel/og": "^0.0.21",
     "canvas-confetti": "^1.9.3",
     "change-case": "^5.4.4",
+    "chrono-node": "^2.7.7",
     "class-variance-authority": "^0.7.0",
     "clsx": "^1.2.1",
     "cmdk": "^1.0.0",
@@ -86,6 +87,7 @@
     "sonner": "^1.2.3",
     "swr": "2.2.6-beta.3",
     "tailwind-merge": "^1.12.0",
+    "timescape": "^0.6.1",
     "ts-morph": "^22.0.0",
     "vaul": "0.9.0",
     "zod": "^3.21.4"
