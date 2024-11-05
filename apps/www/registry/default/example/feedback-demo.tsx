@@ -1,4 +1,4 @@
-import { Feedback } from "@/registry/new-york/ui/feedback"
+import { Feedback } from "@/registry/default/ui/feedback"
 
 export default function FeedbackDemo() {
   return (
