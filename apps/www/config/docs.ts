@@ -164,6 +164,11 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
+          title: "Feedback",
+          href: "/docs/components/feedback",
+          items: [],
+        },
+        {
           title: "Power Mode",
           href: "/docs/components/power-mode",
           items: [],
@@ -221,11 +226,6 @@ export const docsConfig: DocsConfig = {
         {
           title: "Footer",
           href: "/docs/components/footer",
-          items: [],
-        },
-        {
-          title: "Feedback",
-          href: "/docs/components/feedback",
           items: [],
         },
         {

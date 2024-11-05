@@ -336,6 +336,16 @@
     ]
   },
   {
+    "name": "feedback",
+    "type": "registry:ui",
+    "files": [
+      {
+        "path": "ui/feedback.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
     "name": "form",
     "type": "registry:ui",
     "dependencies": [

@@ -163,6 +163,11 @@ export const ui: Registry = [
     files: ["ui/dropdown-menu.tsx"],
   },
   {
+    name: "feedback",
+    type: "registry:ui",
+    files: ["ui/feedback.tsx"],
+  },
+  {
     name: "form",
     type: "registry:ui",
     dependencies: [

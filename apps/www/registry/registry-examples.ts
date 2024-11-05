@@ -460,6 +460,12 @@ export const examples: Registry = [
     files: ["example/dropdown-menu-radio-group.tsx"],
   },
   {
+    name: "feedback-demo",
+    type: "registry:example",
+    registryDependencies: ["feedback"],
+    files: ["example/feedback-demo.tsx"],
+  },
+  {
     name: "hover-card-demo",
     type: "registry:example",
     registryDependencies: ["hover-card"],

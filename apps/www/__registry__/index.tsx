@@ -281,6 +281,18 @@ export const Index: Record<string, any> = {
       subcategory: "",
       chunks: []
     },
+    "feedback": {
+      name: "feedback",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: ["registry/new-york/ui/feedback.tsx"],
+      component: React.lazy(() => import("@/registry/new-york/ui/feedback.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "form": {
       name: "form",
       description: "",
@@ -1536,6 +1548,18 @@ export const Index: Record<string, any> = {
       registryDependencies: ["dropdown-menu","radio-group"],
       files: ["registry/new-york/example/dropdown-menu-radio-group.tsx"],
       component: React.lazy(() => import("@/registry/new-york/example/dropdown-menu-radio-group.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "feedback-demo": {
+      name: "feedback-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["feedback"],
+      files: ["registry/new-york/example/feedback-demo.tsx"],
+      component: React.lazy(() => import("@/registry/new-york/example/feedback-demo.tsx")),
       source: "",
       category: "",
       subcategory: "",
@@ -4290,6 +4314,18 @@ export const Index: Record<string, any> = {
       subcategory: "",
       chunks: []
     },
+    "feedback": {
+      name: "feedback",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: ["registry/default/ui/feedback.tsx"],
+      component: React.lazy(() => import("@/registry/default/ui/feedback.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "form": {
       name: "form",
       description: "",
@@ -5545,6 +5581,18 @@ export const Index: Record<string, any> = {
       registryDependencies: ["dropdown-menu","radio-group"],
       files: ["registry/default/example/dropdown-menu-radio-group.tsx"],
       component: React.lazy(() => import("@/registry/default/example/dropdown-menu-radio-group.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "feedback-demo": {
+      name: "feedback-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["feedback"],
+      files: ["registry/default/example/feedback-demo.tsx"],
+      component: React.lazy(() => import("@/registry/default/example/feedback-demo.tsx")),
       source: "",
       category: "",
       subcategory: "",
