@@ -284,16 +284,6 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Confetti",
-          href: "/docs/components/confetti",
-          items: [],
-        },
-        {
-          title: "Cool Mode",
-          href: "/docs/components/cool-mode",
-          items: [],
-        },
-        {
           title: "Searchbar",
           href: "/docs/components/searchbar",
           items: [],
