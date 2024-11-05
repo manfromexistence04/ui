@@ -229,4 +229,4 @@ const LocationInput = ({
   )
 }
 
-export { LocationInput }
+export default LocationInput

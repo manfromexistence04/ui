@@ -174,8 +174,13 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Location Picker",
-          href: "/docs/components/location-picker",
+          title: "Location Input",
+          href: "/docs/components/location-input",
+          items: [],
+        },
+        {
+          title: "Multi Select",
+          href: "/docs/components/multi-select",
           items: [],
         },
         {
@@ -206,11 +211,6 @@ export const docsConfig: DocsConfig = {
         {
           title: "Phone Number Input",
           href: "/docs/components/phone-number-input",
-          items: [],
-        },
-        {
-          title: "Multi Select",
-          href: "/docs/components/multi-select",
           items: [],
         },
         {
