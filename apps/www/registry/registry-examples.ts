@@ -2,6 +2,54 @@ import { Registry } from "@/registry/schema"
 
 export const examples: Registry = [
   {
+    name: "button-icon-right",
+    type: "registry:example",
+    registryDependencies: ["button"],
+    files: ["example/buttons/icon-right.tsx"],
+  },
+  {
+    name: "button-icon-left",
+    type: "registry:example",
+    registryDependencies: ["button"],
+    files: ["example/buttons/icon-left.tsx"],
+  },
+  {
+    name: "button-gooey-right",
+    type: "registry:example",
+    registryDependencies: ["button"],
+    files: ["example/buttons/gooey-right.tsx"],
+  },
+  {
+    name: "button-gooey-left",
+    type: "registry:example",
+    registryDependencies: ["button"],
+    files: ["example/buttons/gooey-left.tsx"],
+  },
+  {
+    name: "button-shine",
+    type: "registry:example",
+    registryDependencies: ["button"],
+    files: ["example/buttons/shine.tsx"],
+  },
+  {
+    name: "button-ring-hover",
+    type: "registry:example",
+    registryDependencies: ["button"],
+    files: ["example/buttons/ring-hover.tsx"],
+  },
+  {
+    name: "button-link-hover-1",
+    type: "registry:example",
+    registryDependencies: ["button"],
+    files: ["example/buttons/link-hover-1.tsx"],
+  },
+  {
+    name: "button-link-hover-2",
+    type: "registry:example",
+    registryDependencies: ["button"],
+    files: ["example/buttons/link-hover-2.tsx"],
+  },
+  {
     name: "blur-in",
     type: "registry:example",
     registryDependencies: ["text"],
