@@ -4,8 +4,25 @@ export const ui: Registry = [
   {
     name: "buttons",
     type: "registry:ui",
-    registryDependencies: ["buttons"],
+    dependencies: ["@radix-ui/react-slot"],
     files: ["ui/buttons.tsx"],
+    tailwind: {
+      config: {
+        theme: {
+          extend: {
+            keyframes: {
+              shine: {
+                from: { backgroundPosition: "200% 0" },
+                to: { backgroundPosition: "-200% 0" },
+              },
+            },
+            animation: {
+              shine: "shine 8s ease-in-out infinite",
+            },
+          },
+        },
+      },
+    },
   },
   {
     name: "text",

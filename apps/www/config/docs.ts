@@ -215,8 +215,8 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Button",
-          href: "/docs/components/button",
+          title: "Buttons",
+          href: "/docs/components/buttons",
           items: [],
         },
         {

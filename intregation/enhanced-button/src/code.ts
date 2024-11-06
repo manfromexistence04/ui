@@ -123,6 +123,7 @@ const tailwindCode = `const config = {
 }`
 
 
+
 const exampleButtonIconRight = `import { Button } from "./ui/button";
 
 <Button variant="expandIcon" Icon={ArrowRightIcon} iconPlacement="right">
