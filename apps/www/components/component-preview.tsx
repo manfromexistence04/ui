@@ -18,9 +18,13 @@ import {
   TabsTrigger,
 } from "@/registry/new-york/ui/tabs"
 import { styles } from "@/registry/registry-styles"
+import { RotateCcw } from "lucide-react"
+import { Button } from "@/registry/default/ui/button"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/registry/default/ui/dropdown-menu"
 
 interface ComponentPreviewProps extends React.HTMLAttributes<HTMLDivElement> {
   name: string
+  restart?: boolean
   extractClassname?: boolean
   extractedClassNames?: string
   align?: "center" | "start" | "end"
@@ -39,8 +43,11 @@ export function ComponentPreview({
   align = "center",
   description,
   hideCode = false,
+  restart = false,
   ...props
 }: ComponentPreviewProps) {
+  const [key, setKey] = React.useState(0);
+
   const [config] = useConfig()
   const index = styles.findIndex((style) => style.name === config.style)
 
@@ -127,11 +134,25 @@ export function ComponentPreview({
             </TabsList>
           )}
         </div>
-        <TabsContent value="preview" className="relative rounded-md border">
+        <TabsContent value="preview" className="relative rounded-md border" key={key}>
           <div className="flex items-center justify-between p-4">
             <StyleSwitcher />
             <div className="flex items-center gap-2">
               {description ? <V0Button name={name} /> : null}
+              {restart ?
+                <Button
+                  onClick={() => setKey((prev) => prev + 1)}
+                  size="icon"
+                  variant="outline"
+                  className={cn(
+                    "z-10 h-7 w-7 text-foreground opacity-100 hover:bg-muted hover:text-foreground ",
+                    className
+                  )}
+                >
+                  <RotateCcw className="h-3 w-3" />
+                  <span className="sr-only">Restart</span>
+                </Button>
+                : null}
               <CopyButton
                 value={codeString}
                 variant="outline"

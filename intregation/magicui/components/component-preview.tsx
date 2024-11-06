@@ -49,6 +49,7 @@ export function ComponentPreview({
       );
     }
 
+    
     return <Component />;
   }, [name, config.style]);
 
