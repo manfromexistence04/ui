@@ -2,6 +2,12 @@ import { Registry } from "@/registry/schema"
 
 export const ui: Registry = [
   {
+    name: "buttons",
+    type: "registry:ui",
+    registryDependencies: ["buttons"],
+    files: ["ui/buttons.tsx"],
+  },
+  {
     name: "text",
     type: "registry:ui",
     registryDependencies: ["text"],

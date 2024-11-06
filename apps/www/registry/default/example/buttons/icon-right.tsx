@@ -1,6 +1,6 @@
 import { ArrowRightIcon } from "lucide-react"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/default/ui/buttons"
 
 export default function ButtonIconRight() {
   return (

@@ -1,5 +1,18 @@
 [
   {
+    "name": "buttons",
+    "type": "registry:ui",
+    "registryDependencies": [
+      "buttons"
+    ],
+    "files": [
+      {
+        "path": "ui/buttons.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
     "name": "text",
     "type": "registry:ui",
     "registryDependencies": [
