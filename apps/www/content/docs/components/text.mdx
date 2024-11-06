@@ -1,0 +1,150 @@
+---
+title: Text
+description: Displays a text or a component that looks like a text.
+featured: true
+component: true
+---
+
+<ComponentPreview name="text-demo" description="A text" />
+
+## Installation
+
+<Tabs defaultValue="cli">
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add "https://manfromexistence-ui.vercel.app/r/text"
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Install the following dependencies:</Step>
+
+```bash
+npm install @radix-ui/react-slot
+```
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="text" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</Tabs>
+
+## Usage
+
+```tsx
+import { Button } from "@/components/ui/text"
+```
+
+```tsx
+<Button variant="outline">Button</Button>
+```
+
+## Link
+
+You can use the `textVariants` helper to create a link that looks like a text.
+
+```tsx
+import { textVariants } from "@/components/ui/text"
+```
+
+```tsx
+<Link className={textVariants({ variant: "outline" })}>Click here</Link>
+```
+
+Alternatively, you can set the `asChild` parameter and nest the link component.
+
+```tsx
+<Button asChild>
+  <Link href="/login">Login</Link>
+</Button>
+```
+
+## Examples
+
+### Primary
+
+<ComponentPreview name="text-demo" description="A primary text" />
+
+### Secondary
+
+<ComponentPreview name="text-secondary" description="A secondary text" />
+
+### Destructive
+
+<ComponentPreview
+  name="text-destructive"
+  description="A destructive text"
+/>
+
+### Outline
+
+<ComponentPreview
+  name="text-outline"
+  description="A text using the outline variant."
+/>
+
+### Ghost
+
+<ComponentPreview
+  name="text-ghost"
+  description="A text using the ghost variant"
+/>
+
+### Link
+
+<ComponentPreview
+  name="text-link"
+  description="A text using the link variant."
+/>
+
+### Icon
+
+<ComponentPreview name="text-icon" description="An icon text" />
+
+### With Icon
+
+<ComponentPreview name="text-with-icon" description="A text with an icon" />
+
+### Loading
+
+<ComponentPreview
+  name="text-loading"
+  description="A text with a loading state."
+/>
+
+### As Child
+
+<ComponentPreview
+  name="text-as-child"
+  description="A text wrapping a custom Link component"
+/>
+
+## Changelog
+
+### 2024-10-16 Classes for icons
+
+Added `gap-2 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0` to the text to automatically style icon inside the text.
+
+Add the following classes to the `cva` call in your `text.tsx` file.
+
+```diff showLineNumbers title="text.tsx"
+const textVariants = cva(
+  "inline-flex ... gap-2 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
+)
+```

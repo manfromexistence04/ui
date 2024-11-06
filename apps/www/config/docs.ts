@@ -210,13 +210,28 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Tablist",
-          href: "/docs/components/tablist",
+          title: "Text",
+          href: "/docs/components/text",
           items: [],
         },
         {
-          title: "Power Mode",
-          href: "/docs/components/power-mode",
+          title: "Button",
+          href: "/docs/components/button",
+          items: [],
+        },
+        {
+          title: "Background",
+          href: "/docs/components/background",
+          items: [],
+        },
+        {
+          title: "Card",
+          href: "/docs/components/card",
+          items: [],
+        },
+        {
+          title: "Tablist",
+          href: "/docs/components/tablist",
           items: [],
         },
         {
@@ -420,23 +435,8 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Button",
-          href: "/docs/components/button",
-          items: [],
-        },
-        {
-          title: "Background",
-          href: "/docs/components/background",
-          items: [],
-        },
-        {
-          title: "Text",
-          href: "/docs/components/text",
-          items: [],
-        },
-        {
-          title: "Card",
-          href: "/docs/components/card",
+          title: "Power Mode",
+          href: "/docs/components/power-mode",
           items: [],
         },
       ],
