@@ -3,6 +3,7 @@
 import * as React from "react"
 import Image from "next/image"
 import { Index } from "@/__registry__"
+import { RotateCcw } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 import { useConfig } from "@/hooks/use-config"
@@ -11,6 +12,13 @@ import { Icons } from "@/components/icons"
 import { StyleSwitcher } from "@/components/style-switcher"
 import { ThemeWrapper } from "@/components/theme-wrapper"
 import { V0Button } from "@/components/v0-button"
+import { Button } from "@/registry/default/ui/button"
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/registry/default/ui/dropdown-menu"
 import {
   Tabs,
   TabsContent,
@@ -18,9 +26,8 @@ import {
   TabsTrigger,
 } from "@/registry/new-york/ui/tabs"
 import { styles } from "@/registry/registry-styles"
-import { RotateCcw } from "lucide-react"
-import { Button } from "@/registry/default/ui/button"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/registry/default/ui/dropdown-menu"
+
+import RestartButton from "./restart-button"
 
 interface ComponentPreviewProps extends React.HTMLAttributes<HTMLDivElement> {
   name: string
@@ -46,7 +53,7 @@ export function ComponentPreview({
   restart = false,
   ...props
 }: ComponentPreviewProps) {
-  const [key, setKey] = React.useState(0);
+  const [key, setKey] = React.useState(0)
 
   const [config] = useConfig()
   const index = styles.findIndex((style) => style.name === config.style)
@@ -134,25 +141,18 @@ export function ComponentPreview({
             </TabsList>
           )}
         </div>
-        <TabsContent value="preview" className="relative rounded-md border" key={key}>
+        <TabsContent
+          value="preview"
+          className="relative rounded-md border"
+          key={key}
+        >
           <div className="flex items-center justify-between p-4">
             <StyleSwitcher />
             <div className="flex items-center gap-2">
               {description ? <V0Button name={name} /> : null}
-              {restart ?
-                <Button
-                  onClick={() => setKey((prev) => prev + 1)}
-                  size="icon"
-                  variant="outline"
-                  className={cn(
-                    "z-10 h-7 w-7 text-foreground opacity-100 hover:bg-muted hover:text-foreground ",
-                    className
-                  )}
-                >
-                  <RotateCcw className="h-3 w-3" />
-                  <span className="sr-only">Restart</span>
-                </Button>
-                : null}
+              {restart ? (
+                <RestartButton onClick={() => setKey((prev) => prev + 1)} />
+              ) : null}
               <CopyButton
                 value={codeString}
                 variant="outline"

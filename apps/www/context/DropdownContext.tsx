@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from 'react'
+import React, { createContext, useContext, useState } from "react"
 
 interface DropdownContextType {
   countryValue: string
@@ -12,15 +12,15 @@ interface DropdownContextType {
 }
 
 const DropdownContext = createContext<DropdownContextType | undefined>(
-  undefined,
+  undefined
 )
 
 export const DropdownProvider: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
-  const [countryValue, setCountryValue] = useState('')
+  const [countryValue, setCountryValue] = useState("")
   const [openCountryDropdown, setOpenCountryDropdown] = useState(false)
-  const [stateValue, setStateValue] = useState('')
+  const [stateValue, setStateValue] = useState("")
   const [openStateDropdown, setOpenStateDropdown] = useState(false)
 
   return (
@@ -44,7 +44,7 @@ export const DropdownProvider: React.FC<{ children: React.ReactNode }> = ({
 export const useDropdown = () => {
   const context = useContext(DropdownContext)
   if (context === undefined) {
-    throw new Error('useDropdown must be used within a DropdownProvider')
+    throw new Error("useDropdown must be used within a DropdownProvider")
   }
   return context
 }
