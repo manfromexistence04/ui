@@ -1,5 +1,18 @@
 [
   {
+    "name": "text",
+    "type": "registry:ui",
+    "registryDependencies": [
+      "text"
+    ],
+    "files": [
+      {
+        "path": "ui/text.tsx",
+        "type": "registry:ui"
+      }
+    ]
+  },
+  {
     "name": "tags-input",
     "type": "registry:ui",
     "registryDependencies": [

@@ -2,6 +2,12 @@ import { Registry } from "@/registry/schema"
 
 export const ui: Registry = [
   {
+    name: "text",
+    type: "registry:ui",
+    registryDependencies: ["text"],
+    files: ["ui/text.tsx"],
+  },
+  {
     name: "tags-input",
     type: "registry:ui",
     registryDependencies: ["button", "input", "tags-input"],

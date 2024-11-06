@@ -2,6 +2,90 @@ import { Registry } from "@/registry/schema"
 
 export const examples: Registry = [
   {
+    name: "blur-in",
+    type: "registry:example",
+    registryDependencies: ["text"],
+    files: ["example/texts/blur-in.tsx"],
+  },
+  {
+    name: "rotate-text",
+    type: "registry:example",
+    registryDependencies: ["text"],
+    files: ["example/texts/rotate-text.tsx"],
+  },
+  {
+    name: "fade-down-stagger",
+    type: "registry:example",
+    registryDependencies: ["text"],
+    files: ["example/texts/fade-down-stagger.tsx"],
+  },
+  {
+    name: "fade-up-stagger",
+    type: "registry:example",
+    registryDependencies: ["text"],
+    files: ["example/texts/fade-up-stagger.tsx"],
+  },
+  {
+    name: "letter-pull-up",
+    type: "registry:example",
+    registryDependencies: ["text"],
+    files: ["example/texts/letter-pull-up.tsx"],
+  },
+  {
+    name: "multi-direction-slide",
+    type: "registry:example",
+    registryDependencies: ["text"],
+    files: ["example/texts/multi-direction-slide.tsx"],
+  },
+  {
+    name: "staggered-fade-in",
+    type: "registry:example",
+    registryDependencies: ["text"],
+    files: ["example/texts/staggered-fade-in.tsx"],
+  },
+  {
+    name: "typing-effect",
+    type: "registry:example",
+    registryDependencies: ["text"],
+    files: ["example/texts/typing-effect.tsx"],
+  },
+  {
+    name: "velocity-scroll",
+    type: "registry:example",
+    registryDependencies: ["text"],
+    files: ["example/texts/velocity-scroll.tsx"],
+  },
+  {
+    name: "word-pull-up",
+    type: "registry:example",
+    registryDependencies: ["text"],
+    files: ["example/texts/word-pull-up.tsx"],
+  },
+  {
+    name: "separate-away",
+    type: "registry:example",
+    registryDependencies: ["text"],
+    files: ["example/texts/separate-away.tsx"],
+  },
+  {
+    name: "gradual-spacing",
+    type: "registry:example",
+    registryDependencies: ["text"],
+    files: ["example/texts/gradual-spacing.tsx"],
+  },
+  {
+    name: "slight-flip",
+    type: "registry:example",
+    registryDependencies: ["text"],
+    files: ["example/texts/slight-flip.tsx"],
+  },
+  {
+    name: "wavy-text",
+    type: "registry:example",
+    registryDependencies: ["text"],
+    files: ["example/texts/wavy-text.tsx"],
+  },
+  {
     name: "tags-input-demo",
     type: "registry:example",
     registryDependencies: ["button", "form", "tags-input-demo"],

@@ -5,7 +5,7 @@ featured: true
 component: true
 ---
 
-<ComponentPreview name="text-demo" description="A text" />
+<ComponentPreview name="blur-in" description="A Blurred In Text" />
 
 ## Installation
 
@@ -27,12 +27,6 @@ npx shadcn@latest add "https://manfromexistence-ui.vercel.app/r/text"
 
 <Steps>
 
-<Step>Install the following dependencies:</Step>
-
-```bash
-npm install @radix-ui/react-slot
-```
-
 <Step>Copy and paste the following code into your project.</Step>
 
 <ComponentSource name="text" />
@@ -48,103 +42,64 @@ npm install @radix-ui/react-slot
 ## Usage
 
 ```tsx
-import { Button } from "@/components/ui/text"
+import { BlurIn } from "@/components/ui/text"
 ```
 
 ```tsx
-<Button variant="outline">Button</Button>
-```
-
-## Link
-
-You can use the `textVariants` helper to create a link that looks like a text.
-
-```tsx
-import { textVariants } from "@/components/ui/text"
-```
-
-```tsx
-<Link className={textVariants({ variant: "outline" })}>Click here</Link>
-```
-
-Alternatively, you can set the `asChild` parameter and nest the link component.
-
-```tsx
-<Button asChild>
-  <Link href="/login">Login</Link>
-</Button>
+<BlurIn />
 ```
 
 ## Examples
 
-### Primary
+### Rotate Text
 
-<ComponentPreview name="text-demo" description="A primary text" />
+<ComponentPreview name="rotate-text" description="A rotating text" />
 
-### Secondary
+### Fade Down Stagger
 
-<ComponentPreview name="text-secondary" description="A secondary text" />
+<ComponentPreview name="fade-down-stagger" description="A fade down stagger text" />
 
-### Destructive
+### Fade Up Stagger
 
-<ComponentPreview
-  name="text-destructive"
-  description="A destructive text"
-/>
+<ComponentPreview name="fade-up-stagger" description="A fade up stagger text" />
 
-### Outline
+### Letter Pull Up
 
-<ComponentPreview
-  name="text-outline"
-  description="A text using the outline variant."
-/>
+<ComponentPreview name="letter-pull-up" description="A letter pull up text" />
 
-### Ghost
+### Multi Direction Slide
 
-<ComponentPreview
-  name="text-ghost"
-  description="A text using the ghost variant"
-/>
+<ComponentPreview name="multi-direction-slide" description="A multi direction slide text" />
 
-### Link
+### Staggerd Fade In
 
-<ComponentPreview
-  name="text-link"
-  description="A text using the link variant."
-/>
+<ComponentPreview name="staggerd-fade-in" description="A staggerd fade in text" />
 
-### Icon
+### Typing Effect
 
-<ComponentPreview name="text-icon" description="An icon text" />
+<ComponentPreview name="typing-effect" description="A typing effect text" />
 
-### With Icon
+### Velocity Scroll
 
-<ComponentPreview name="text-with-icon" description="A text with an icon" />
+<ComponentPreview name="velocity-scroll" description="A velocity scroll text" />
 
-### Loading
+### Word Pull Up
 
-<ComponentPreview
-  name="text-loading"
-  description="A text with a loading state."
-/>
+<ComponentPreview name="word-pull-up" description="A word pull up text" />
 
-### As Child
+### Separate Away
 
-<ComponentPreview
-  name="text-as-child"
-  description="A text wrapping a custom Link component"
-/>
+<ComponentPreview name="separate-away" description="A separate away text" />
 
-## Changelog
+### Gradual Spacing
 
-### 2024-10-16 Classes for icons
+<ComponentPreview name="gradual-spacing" description="A gradual spacing text" />
 
-Added `gap-2 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0` to the text to automatically style icon inside the text.
+### Slight Flip
 
-Add the following classes to the `cva` call in your `text.tsx` file.
+<ComponentPreview name="slight-flip" description="A slight flip text" />
 
-```diff showLineNumbers title="text.tsx"
-const textVariants = cva(
-  "inline-flex ... gap-2 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
-)
-```
+### Wavy Text
+
+<ComponentPreview name="wavy-text" description="A wavy text text" />
+
