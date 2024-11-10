@@ -217,7 +217,7 @@ export const docsConfig: DocsConfig = {
           items: [],
         },
         {
-          title: "Text",
+          title: "Texts",
           href: "/docs/components/text",
           items: [],
         },
