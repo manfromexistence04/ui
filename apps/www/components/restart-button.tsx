@@ -1,3 +1,6 @@
+
+"use client"
+
 import { RotateCcw } from "lucide-react"
 
 import { cn } from "@/lib/utils"

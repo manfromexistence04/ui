@@ -3,7 +3,6 @@
 import * as React from "react"
 import Image from "next/image"
 import { Index } from "@/__registry__"
-import { RotateCcw } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 import { useConfig } from "@/hooks/use-config"
@@ -12,13 +11,6 @@ import { Icons } from "@/components/icons"
 import { StyleSwitcher } from "@/components/style-switcher"
 import { ThemeWrapper } from "@/components/theme-wrapper"
 import { V0Button } from "@/components/v0-button"
-import { Button } from "@/registry/default/ui/button"
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/registry/default/ui/dropdown-menu"
 import {
   Tabs,
   TabsContent,
