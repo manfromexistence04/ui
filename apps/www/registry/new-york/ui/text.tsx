@@ -53,7 +53,8 @@ export function FadeDownStagger({ key }: { key: number }) {
         className="mx-auto mt-6 flex items-center justify-center space-x-5"
         variants={FADE_DOWN_ANIMATION_VARIANTS}
       >
-        If you&apos;re seeing this, thank you for trying my project out! - C.J.A
+        If you&apos;re seeing this, thank you for trying my project out! -
+        manfromexistnece
       </motion.div>
     </motion.div>
   )

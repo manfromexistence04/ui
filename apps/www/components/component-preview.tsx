@@ -19,7 +19,6 @@ import {
 } from "@/registry/new-york/ui/tabs"
 import { styles } from "@/registry/registry-styles"
 
-import RestartButton from "@/components/restart-button"
 import { Button } from "@/registry/default/ui/button"
 import { RotateCcw } from "lucide-react"
 
@@ -145,21 +144,20 @@ export function ComponentPreview({
             <div className="flex items-center gap-2">
               {description ? <V0Button name={name} /> : null}
               {restart ? (
-                <RestartButton onClick={() => setKey((prev) => prev + 1)} />
+                <Button
+                  onClick={() => setKey((prev) => prev + 1)}
+                  size="icon"
+                  variant="outline"
+                  className={cn(
+                    "z-10 h-7 w-7 text-foreground opacity-100 hover:bg-muted hover:text-foreground ",
+                    className
+                  )}
+                >
+                  <RotateCcw className="h-3 w-3" />
+                  <span className="sr-only">Restart</span>
+                </Button>
               ) : null}
-              <Button
-                onClick={() => setKey((prev) => prev + 1)}
-                size="icon"
-                variant="outline"
-                className={cn(
-                  "z-10 h-7 w-7 text-foreground opacity-100 hover:bg-muted hover:text-foreground ",
-                  className
-                )}
-              >
-                <RotateCcw className="h-3 w-3" />
-                OP
-                <span className="sr-only">Restart OP</span>
-              </Button>
+
               <CopyButton
                 value={codeString}
                 variant="outline"
