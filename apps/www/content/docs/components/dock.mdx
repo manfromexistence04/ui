@@ -13,11 +13,20 @@ links:
 
 ## Installation
 
-<Tabs defaultValue="manual">
+<Tabs defaultValue="cli">
 
 <TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
   <TabsTrigger value="manual">Manual</TabsTrigger>
 </TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add "https://manfromexistence-ui.vercel.app/r/dock" "https://manfromexistence-ui.vercel.app/r/dock-rainbow"
+```
+
+</TabsContent>
 
 <TabsContent value="manual">
   <Steps>
@@ -166,3 +175,12 @@ const Dock = ({ children }: DockProps) => {
   )
 }
 ```
+
+## Examples
+
+### Custom Zoom
+
+<ComponentPreview
+  name="dock"
+  description="A dock with custom zoom in it."
+/>

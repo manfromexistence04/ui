@@ -3,6 +3,7 @@
 import * as React from "react"
 import Image from "next/image"
 import { Index } from "@/__registry__"
+import { RotateCcw } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 import { useConfig } from "@/hooks/use-config"
@@ -11,6 +12,13 @@ import { Icons } from "@/components/icons"
 import { StyleSwitcher } from "@/components/style-switcher"
 import { ThemeWrapper } from "@/components/theme-wrapper"
 import { V0Button } from "@/components/v0-button"
+import { Button } from "@/registry/default/ui/button"
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/registry/default/ui/dropdown-menu"
 import {
   Tabs,
   TabsContent,
@@ -19,8 +27,11 @@ import {
 } from "@/registry/new-york/ui/tabs"
 import { styles } from "@/registry/registry-styles"
 
+import RestartButton from "./restart-button"
+
 interface ComponentPreviewProps extends React.HTMLAttributes<HTMLDivElement> {
   name: string
+  restart?: boolean
   extractClassname?: boolean
   extractedClassNames?: string
   align?: "center" | "start" | "end"
@@ -39,8 +50,11 @@ export function ComponentPreview({
   align = "center",
   description,
   hideCode = false,
+  restart = false,
   ...props
 }: ComponentPreviewProps) {
+  const [key, setKey] = React.useState(0)
+
   const [config] = useConfig()
   const index = styles.findIndex((style) => style.name === config.style)
 
@@ -94,7 +108,10 @@ export function ComponentPreview({
           className="absolute left-0 top-0 z-20 hidden w-[970px] max-w-none bg-background dark:block sm:w-[1280px] md:hidden md:dark:hidden"
         />
         <div className="absolute inset-0 hidden w-[1600px] bg-background md:block">
-          <iframe src={`/blocks/new-york/${name}`} className="size-full" />
+          <iframe
+            src={`/blocks/${config.style}/${name}`}
+            className="size-full"
+          />
         </div>
       </div>
     )
@@ -124,11 +141,18 @@ export function ComponentPreview({
             </TabsList>
           )}
         </div>
-        <TabsContent value="preview" className="relative rounded-md border">
+        <TabsContent
+          value="preview"
+          className="relative rounded-md border"
+          key={key}
+        >
           <div className="flex items-center justify-between p-4">
             <StyleSwitcher />
             <div className="flex items-center gap-2">
               {description ? <V0Button name={name} /> : null}
+              {restart ? (
+                <RestartButton onClick={() => setKey((prev) => prev + 1)} />
+              ) : null}
               <CopyButton
                 value={codeString}
                 variant="outline"
