@@ -1549,22 +1549,6 @@ export const Index: Record<string, any> = {
       subcategory: "",
       chunks: []
     },
-    "context-menu-demo": {
-      name: "context-menu-demo",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["context-menu"],
-      files: [{
-        path: "registry/new-york/example/context-menu-demo.tsx",
-        type: "registry:example",
-        target: ""
-      }],
-      component: React.lazy(() => import("@/registry/new-york/example/context-menu-demo.tsx")),
-      source: "",
-      category: "",
-      subcategory: "",
-      chunks: []
-    },
     "cool-mode-demo": {
       name: "cool-mode-demo",
       description: "",
@@ -8845,22 +8829,6 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: React.lazy(() => import("@/registry/default/example/confetti-emoji.tsx")),
-      source: "",
-      category: "",
-      subcategory: "",
-      chunks: []
-    },
-    "context-menu-demo": {
-      name: "context-menu-demo",
-      description: "",
-      type: "registry:example",
-      registryDependencies: ["context-menu"],
-      files: [{
-        path: "registry/default/example/context-menu-demo.tsx",
-        type: "registry:example",
-        target: ""
-      }],
-      component: React.lazy(() => import("@/registry/default/example/context-menu-demo.tsx")),
       source: "",
       category: "",
       subcategory: "",

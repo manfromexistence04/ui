@@ -103,17 +103,6 @@ export const examples: Registry = [
     files: [{ path: "example/confetti-emoji.tsx", type: "registry:example" }],
   },
   {
-    name: "context-menu-demo",
-    type: "registry:example",
-    registryDependencies: ["context-menu"],
-    files: [
-      {
-        path: "example/context-menu-demo.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
-  {
     name: "cool-mode-demo",
     type: "registry:example",
     files: [{ path: "example/cool-mode-demo.tsx", type: "registry:example" }],
