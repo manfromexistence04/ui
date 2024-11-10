@@ -2,6 +2,145 @@ import { Registry } from "@/registry/schema"
 
 export const ui: Registry = [
   {
+    name: "buttons",
+    type: "registry:ui",
+    dependencies: ["@radix-ui/react-slot"],
+    files: [
+      {
+        path: "ui/buttons.tsx",
+        type: "registry:ui",
+      },
+    ],
+    tailwind: {
+      config: {
+        theme: {
+          extend: {
+            keyframes: {
+              shine: {
+                from: { backgroundPosition: "200% 0" },
+                to: { backgroundPosition: "-200% 0" },
+              },
+            },
+            animation: {
+              shine: "shine 8s ease-in-out infinite",
+            },
+          },
+        },
+      },
+    },
+  },
+  {
+    name: "text",
+    type: "registry:ui",
+    registryDependencies: ["text"],
+    files: [
+      {
+        path: "ui/text.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
+  {
+    name: "tags-input",
+    type: "registry:ui",
+    registryDependencies: ["button", "input", "tags-input"],
+    files: [
+      {
+        path: "ui/tags-input.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
+  {
+    name: "password-input",
+    type: "registry:ui",
+    registryDependencies: ["button", "input", "password-input"],
+    files: [
+      {
+        path: "ui/password-input.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
+  {
+    name: "file-upload",
+    type: "registry:ui",
+    registryDependencies: ["button", "input", "file-upload"],
+    files: [
+      {
+        path: "ui/file-upload.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
+  {
+    name: "phone-input",
+    type: "registry:ui",
+    registryDependencies: ["popover", "command", "button", "phone-input"],
+    files: [
+      {
+        path: "ui/phone-input.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
+  {
+    name: "smart-date-time-picker",
+    type: "registry:ui",
+    registryDependencies: [
+      "popover",
+      "calander",
+      "button",
+      "scroll-area",
+      "smart-date-time-picker",
+    ],
+    files: [
+      {
+        path: "ui/smart-date-time-picker.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
+  {
+    name: "date-time-picker",
+    type: "registry:ui",
+    registryDependencies: ["input", "date-time-picker"],
+    files: [
+      {
+        path: "ui/date-time-picker.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
+  {
+    name: "multi-select",
+    type: "registry:ui",
+    registryDependencies: ["badge", "command", "multi-select"],
+    files: [
+      {
+        path: "ui/multi-select.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
+  {
+    name: "location-input",
+    type: "registry:ui",
+    registryDependencies: [
+      "button",
+      "popover",
+      "scroll-area",
+      "command",
+      "location-picker",
+    ],
+    files: [
+      {
+        path: "ui/location-input.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
+  {
     name: "text-animate",
     type: "registry:ui",
     dependencies: ["framer-motion"],
