@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 "use client"
 
 import { useEffect, useState } from "react"
@@ -16,7 +17,7 @@ import {
   DockCard,
   DockCardInner,
   DockDivider,
-} from "@/registry/default/ui/dock"
+} from "@/registry/default/ui/dock-rainbow"
 
 function useIsMobile() {
   const [isMobile, setIsMobile] = useState(false)
@@ -53,14 +54,14 @@ let gradients = [
 
 function DockAnimation() {
   let openIcons = [
-    <CircleIcon className="h-8 w-8 fill-black stroke-black rounded-full" />,
-    <TriangleIcon className="h-8 w-8 fill-black stroke-black rounded-full" />,
-    <SquareIcon className="h-8 w-8 fill-black stroke-black rounded-full" />,
-    <PentagonIcon className="h-8 w-8 fill-black stroke-black rounded-full" />,
-    <HexagonIcon className="h-8 w-8 fill-black stroke-black rounded-full" />,
-    <OctagonIcon className="h-8 w-8 fill-black stroke-black rounded-full" />,
+    <CircleIcon className="h-8 w-8 rounded-full fill-black stroke-black" />,
+    <TriangleIcon className="h-8 w-8 rounded-full fill-black stroke-black" />,
+    <SquareIcon className="h-8 w-8 rounded-full fill-black stroke-black" />,
+    <PentagonIcon className="h-8 w-8 rounded-full fill-black stroke-black" />,
+    <HexagonIcon className="h-8 w-8 rounded-full fill-black stroke-black" />,
+    <OctagonIcon className="h-8 w-8 rounded-full fill-black stroke-black" />,
     null, // skip
-    <BlocksIcon className="h-8 w-8 fill-black stroke-black rounded-full" />,
+    <BlocksIcon className="h-8 w-8 rounded-full fill-black stroke-black" />,
   ]
 
   const isMobile = useIsMobile()

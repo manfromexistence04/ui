@@ -240,6 +240,12 @@ export const ui: Registry = [
     files: ["ui/dock.tsx"],
   },
   {
+    name: "dock-rainbow",
+    type: "registry:ui",
+    dependencies: ["framer-motion"],
+    files: ["ui/dock-rainbow.tsx"],
+  },
+  {
     name: "drawer",
     type: "registry:ui",
     dependencies: ["vaul", "@radix-ui/react-dialog"],

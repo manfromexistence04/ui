@@ -181,6 +181,17 @@ export const examples: Registry = [
     registryDependencies: ["location-input"],
     files: ["example/location-input-demo.tsx"],
   },
+
+
+
+
+
+
+
+
+
+
+  
   {
     name: "accordion-demo",
     type: "registry:example",
@@ -602,6 +613,12 @@ export const examples: Registry = [
     type: "registry:example",
     registryDependencies: ["dock"],
     files: ["example/dock-demo.tsx"],
+  },
+  {
+    name: "dock-rainbow-demo",
+    type: "registry:example",
+    registryDependencies: ["dock"],
+    files: ["example/dock-raibow-demo.tsx"],
   },
   {
     name: "dialog-close-button",

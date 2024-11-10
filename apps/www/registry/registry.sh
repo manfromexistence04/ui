@@ -12,3 +12,5 @@ for file in "$source_dir"/*; do
     cp "$file" "$target_file"
   fi
 done
+
+# find . -maxdepth 1 -name "copy_*" -delete

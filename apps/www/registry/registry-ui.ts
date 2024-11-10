@@ -339,6 +339,17 @@ export const ui: Registry = [
     ],
   },
   {
+    name: "dock-rainbow",
+    type: "registry:ui",
+    dependencies: ["framer-motion"],
+    files: [
+      {
+        path: "ui/dock-rainbow.tsx",
+        type: "registry:ui",
+      },
+    ],
+  },
+  {
     name: "lightboard",
     type: "registry:ui",
     dependencies: [""],
