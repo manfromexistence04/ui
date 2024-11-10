@@ -2,7 +2,7 @@
 
 import { ReactNode } from "react"
 
-import { Typewriter } from "../ui/typewriter"
+import { Typewriter } from "@/registry/default/ui/typewriter"
 
 const texts = [
   "Testing 124",

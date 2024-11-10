@@ -8,24 +8,33 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+} from "@/registry/default/ui/accordion"
+import { Button } from "@/registry/default/ui/button"
+import { CanvasFractalGrid } from "@/registry/default/ui/canvas-fractal-grid"
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/registry/default/ui/card"
+import { Input } from "@/registry/default/ui/input"
+import { Label } from "@/registry/default/ui/label"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select"
-import { Slider } from "@/components/ui/slider"
-import { Switch } from "@/components/ui/switch"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { useToast } from "@/components/ui/use-toast"
-
-import { CanvasFractalGrid } from "../ui/canvas-fractal-grid"
+} from "@/registry/default/ui/select"
+import { Slider } from "@/registry/default/ui/slider"
+import { Switch } from "@/registry/default/ui/switch"
+import {
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from "@/registry/default/ui/tabs"
+import { useToast } from "@/registry/default/ui/use-toast"
 
 type GradientStop = {
   color: string
@@ -111,7 +120,7 @@ export function ConfigurableCanvasFractalGrid() {
     const configString = `
 "use client"
 
-import { CanvasFractalGrid } from "../ui/canvas-fractal-grid"
+import { CanvasFractalGrid } from "@/registry/default/ui/canvas-fractal-grid"
 
 export function CanvasFractalGridExample() {
   return (

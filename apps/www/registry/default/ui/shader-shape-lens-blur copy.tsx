@@ -10,18 +10,23 @@ import React, {
 import { motion } from "framer-motion"
 import * as THREE from "three"
 
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+import { Button } from "@/registry/default/ui/button"
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/registry/default/ui/card"
+import { Input } from "@/registry/default/ui/input"
+import { Label } from "@/registry/default/ui/label"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select"
-import { Switch } from "@/components/ui/switch"
+} from "@/registry/default/ui/select"
+import { Switch } from "@/registry/default/ui/switch"
 
 const fragmentShader = `
 varying vec2 v_texcoord;
@@ -537,7 +542,7 @@ export default ImprovedShaderAnimation
 // import { motion } from "framer-motion"
 // import * as THREE from "three"
 
-// import { Button } from "@/components/ui/button"
+// import { Button } from "@/registry/default/ui/button"
 
 // const fragmentShader = `
 // varying vec2 v_texcoord;

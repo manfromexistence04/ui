@@ -1,4 +1,4 @@
-import BackgroundMedia from "../ui/bg-media"
+import BackgroundMedia from "@/registry/default/ui/bg-media"
 
 export default function BgMediaDemo() {
   return (

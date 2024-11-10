@@ -1,4 +1,4 @@
-import { BgAnimateButton } from "../ui/bg-animate-button"
+import { BgAnimateButton } from "@/registry/default/ui/bg-animate-button"
 
 type Gradients =
   | "sunrise"

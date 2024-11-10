@@ -1,4 +1,4 @@
-import ThreeDPhotoCarousel from "../ui/three-d-carousel"
+import ThreeDPhotoCarousel from "@/registry/default/ui/three-d-carousel"
 
 export default function ThreeDPhotoCarouselDemo() {
   return (

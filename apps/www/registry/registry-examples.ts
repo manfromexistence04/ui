@@ -10,7 +10,7 @@ export const examples: Registry = [
         path: "example/text-animate-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "texture-button-demo",
@@ -21,7 +21,7 @@ export const examples: Registry = [
         path: "example/texture-button-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "texture-card-demo",
@@ -32,7 +32,7 @@ export const examples: Registry = [
         path: "example/texture-card-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "shift-card-demo",
@@ -43,7 +43,7 @@ export const examples: Registry = [
         path: "example/shift-card-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "minimal-card-demo",
@@ -54,7 +54,7 @@ export const examples: Registry = [
         path: "example/minimal-card-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "dynamic-island-demo",
@@ -65,7 +65,7 @@ export const examples: Registry = [
         path: "example/dynamic-island-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "direction-aware-tabs-demo",
@@ -76,7 +76,7 @@ export const examples: Registry = [
         path: "example/direction-aware-tabs-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "bg-animate-button-demo",
@@ -87,7 +87,7 @@ export const examples: Registry = [
         path: "example/bg-animate-button-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "family-button-demo",
@@ -98,7 +98,7 @@ export const examples: Registry = [
         path: "example/family-button-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "side-panel-demo",
@@ -109,7 +109,7 @@ export const examples: Registry = [
         path: "example/side-panel-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "bg-media-demo",
@@ -120,7 +120,7 @@ export const examples: Registry = [
         path: "example/bg-media-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "three-d-carousel-demo",
@@ -131,7 +131,7 @@ export const examples: Registry = [
         path: "example/three-d-carousel-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "tweet-grid-demo",
@@ -142,7 +142,7 @@ export const examples: Registry = [
         path: "example/tweet-grid-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "gradient-heading-demo",
@@ -153,7 +153,7 @@ export const examples: Registry = [
         path: "example/gradient-heading-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "typewriter-demo",
@@ -164,7 +164,7 @@ export const examples: Registry = [
         path: "example/typewriter-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "animated-number-demo",
@@ -175,7 +175,7 @@ export const examples: Registry = [
         path: "example/animated-number-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "sortable-list-demo",
@@ -186,7 +186,7 @@ export const examples: Registry = [
         path: "example/sortable-list-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "dock-demo",
@@ -197,7 +197,7 @@ export const examples: Registry = [
         path: "example/dock-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "lightboard-demo",
@@ -208,7 +208,7 @@ export const examples: Registry = [
         path: "example/lightboard-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "canvas-fractal-grid-demo",
@@ -219,7 +219,7 @@ export const examples: Registry = [
         path: "example/canvas-fractal-grid-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
 
   {
@@ -231,7 +231,7 @@ export const examples: Registry = [
         path: "example/bg-animated-fractal-dot-grid-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
 
   {
@@ -243,7 +243,7 @@ export const examples: Registry = [
         path: "example/bg-animated-gradient-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
 
   {
@@ -255,7 +255,7 @@ export const examples: Registry = [
         path: "example/popover-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "floating-panel-demo",
@@ -266,7 +266,7 @@ export const examples: Registry = [
         path: "example/floating-panel-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
 
   {
@@ -278,7 +278,7 @@ export const examples: Registry = [
         path: "example/color-picker-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
 
   {
@@ -290,7 +290,7 @@ export const examples: Registry = [
         path: "example/shader-lens-blur-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "popover-form-demo",
@@ -301,7 +301,7 @@ export const examples: Registry = [
         path: "example/popover-form-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
   {
     name: "expandable-demo",
@@ -312,7 +312,7 @@ export const examples: Registry = [
         path: "example/expandable-demo.tsx",
         type: "registry:example",
       },
-    ]
+    ],
   },
 
   {
@@ -1184,17 +1184,6 @@ export const examples: Registry = [
     files: [
       {
         path: "example/pagination-demo.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
-  {
-    name: "popover-demo",
-    type: "registry:example",
-    registryDependencies: ["popover"],
-    files: [
-      {
-        path: "example/popover-demo.tsx",
         type: "registry:example",
       },
     ],

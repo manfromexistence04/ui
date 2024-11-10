@@ -14,7 +14,7 @@ import { Trash } from "lucide-react"
 import useMeasure from "react-use-measure"
 
 import { cn } from "@/lib/utils"
-import { Checkbox } from "@/components/ui/checkbox"
+import { Checkbox } from "@/registry/default/ui/checkbox"
 
 export type Item = {
   text: string

@@ -3,9 +3,8 @@
 import { useRef, useState } from "react"
 import { motion, useInView } from "framer-motion"
 
-import { FadeIn } from "@/components/fade-in"
-
-import TextAnimate from "../ui/text-animate"
+import { FadeIn } from "@/registry/default/ui/fade-in"
+import TextAnimate from "@/registry/default/ui/text-animate"
 
 // @ts-ignore
 const AnimationDemo = ({ type, children }) => {

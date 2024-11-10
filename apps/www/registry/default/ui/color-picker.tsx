@@ -4,14 +4,14 @@ import React, { useEffect, useState } from "react"
 import { AnimatePresence, motion } from "framer-motion"
 import { Check, ChevronDown } from "lucide-react"
 
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+import { Button } from "@/registry/default/ui/button"
+import { Input } from "@/registry/default/ui/input"
+import { Label } from "@/registry/default/ui/label"
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover"
+} from "@/registry/default/ui/popover"
 
 // Helper functions for color conversion
 const hslToHex = (h: number, s: number, l: number) => {

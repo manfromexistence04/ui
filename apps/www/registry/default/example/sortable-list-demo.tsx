@@ -6,11 +6,13 @@ import { Plus, RepeatIcon, Settings2Icon, XIcon } from "lucide-react"
 import { toast } from "sonner"
 
 import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
-import { Slider } from "@/components/ui/slider"
+import { Button } from "@/registry/default/ui/button"
 import { DirectionAwareTabs } from "@/registry/default/ui/direction-aware-tabs"
-
-import SortableList, { Item, SortableListItem } from "../ui/sortable-list"
+import { Slider } from "@/registry/default/ui/slider"
+import SortableList, {
+  Item,
+  SortableListItem,
+} from "@/registry/default/ui/sortable-list"
 
 const initialState = [
   {

@@ -5,26 +5,32 @@ import { motion } from "framer-motion"
 import { useAtom } from "jotai"
 import { Circle, CircleOff, Sliders, Square, Triangle } from "lucide-react"
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Label } from "@/components/ui/label"
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/registry/default/ui/card"
+import ColorPicker from "@/registry/default/ui/color-picker"
+import { Label } from "@/registry/default/ui/label"
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover"
+} from "@/registry/default/ui/popover"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select"
-import { Separator } from "@/components/ui/separator"
-import { Slider } from "@/components/ui/slider"
-import { Switch } from "@/components/ui/switch"
-
-import ColorPicker from "../ui/color-picker"
-import ShaderLensBlur, { configAtom } from "../ui/shader-lens-blur"
+} from "@/registry/default/ui/select"
+import { Separator } from "@/registry/default/ui/separator"
+import ShaderLensBlur, {
+  configAtom,
+} from "@/registry/default/ui/shader-lens-blur"
+import { Slider } from "@/registry/default/ui/slider"
+import { Switch } from "@/registry/default/ui/switch"
 
 function ShaderLensBlurDemo() {
   return (

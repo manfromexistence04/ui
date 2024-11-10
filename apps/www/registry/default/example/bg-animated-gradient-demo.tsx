@@ -8,16 +8,25 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Slider } from "@/components/ui/slider"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { useToast } from "@/components/ui/use-toast"
-
-import { GradientAnimation } from "../ui/bg-animated-gradient"
+} from "@/registry/default/ui/accordion"
+import { GradientAnimation } from "@/registry/default/ui/bg-animated-gradient"
+import { Button } from "@/registry/default/ui/button"
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from "@/registry/default/ui/card"
+import { Input } from "@/registry/default/ui/input"
+import { Label } from "@/registry/default/ui/label"
+import { Slider } from "@/registry/default/ui/slider"
+import {
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+} from "@/registry/default/ui/tabs"
+import { useToast } from "@/registry/default/ui/use-toast"
 
 type GradientStop = {
   color: string

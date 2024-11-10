@@ -17,7 +17,7 @@ import {
   FloatingPanelSubmitButton,
   FloatingPanelTextarea,
   FloatingPanelTrigger,
-} from "../ui/floating-panel"
+} from "@/registry/default/ui/floating-panel"
 
 function FloatingPanelInput() {
   const handleSubmit = (note: string) => {

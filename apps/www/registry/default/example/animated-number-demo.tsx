@@ -4,10 +4,10 @@ import { useState } from "react"
 import { Minus, Plus } from "lucide-react"
 import { toast } from "sonner"
 
-import { Button } from "@/components/ui/button"
-import { Slider } from "@/components/ui/slider"
 import { AnimatedNumber } from "@/registry/default/ui/animated-number"
+import { Button } from "@/registry/default/ui/button"
 import { GradientHeading } from "@/registry/default/ui/gradient-heading"
+import { Slider } from "@/registry/default/ui/slider"
 import {
   TextureCardContent,
   TextureCardHeader,

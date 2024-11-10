@@ -2,7 +2,12 @@
 
 import * as React from "react"
 
-import { GradientHeading, Size, Variant, Weight } from "../ui/gradient-heading"
+import {
+  GradientHeading,
+  Size,
+  Variant,
+  Weight,
+} from "@/registry/default/ui/gradient-heading"
 
 export default function GradientHeadingDemo() {
   const variants: Variant[] = ["default", "pink", "light"]

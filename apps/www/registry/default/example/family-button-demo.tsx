@@ -4,7 +4,7 @@ import { useMemo, useState } from "react"
 import { AnimatePresence, MotionConfig, motion } from "framer-motion"
 import useMeasure from "react-use-measure"
 
-import FamilyButton from "../ui/family-button"
+import FamilyButton from "@/registry/default/ui/family-button"
 
 export default function FamilyButtonDemo() {
   return (

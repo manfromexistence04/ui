@@ -22,15 +22,13 @@ import {
 } from "lucide-react"
 import { toast } from "sonner"
 
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
 import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip"
+  Avatar,
+  AvatarFallback,
+  AvatarImage,
+} from "@/registry/default/ui/avatar"
+import { Badge } from "@/registry/default/ui/badge"
+import { Button } from "@/registry/default/ui/button"
 import {
   Expandable,
   ExpandableCard,
@@ -40,6 +38,12 @@ import {
   ExpandableContent,
   ExpandableTrigger,
 } from "@/registry/default/ui/expandable"
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/registry/default/ui/tooltip"
 
 // _____________________EXAMPLES______________________
 function DesignSyncExample() {

@@ -16,7 +16,7 @@ import {
   PopoverSubmitButton,
   PopoverTextarea,
   PopoverTrigger,
-} from "../ui/popover"
+} from "@/registry/default/ui/popover"
 
 function PopoverInput() {
   const handleSubmit = (note: string) => {

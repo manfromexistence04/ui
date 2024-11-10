@@ -12,9 +12,8 @@ import ReactPlayer from "react-player/lazy"
 import useMeasure from "react-use-measure"
 
 import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
-
-import { SidePanel } from "../ui/side-panel"
+import { Button } from "@/registry/default/ui/button"
+import { SidePanel } from "@/registry/default/ui/side-panel"
 
 // Theme Context for Styling
 type ThemeContextType = {

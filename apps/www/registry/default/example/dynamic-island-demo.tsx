@@ -12,8 +12,8 @@ import {
   Waves,
 } from "lucide-react"
 
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
+import { Badge } from "@/registry/default/ui/badge"
+import { Button } from "@/registry/default/ui/button"
 import {
   DynamicContainer,
   DynamicDescription,
