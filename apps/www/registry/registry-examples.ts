@@ -2,6 +2,320 @@ import { Registry } from "@/registry/schema"
 
 export const examples: Registry = [
   {
+    name: "text-animate-demo",
+    type: "registry:example",
+    registryDependencies: ["text-animate"],
+    files: [
+      {
+        path: "example/text-animate-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "texture-button-demo",
+    type: "registry:example",
+    registryDependencies: ["texture-button"],
+    files: [
+      {
+        path: "example/texture-button-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "texture-card-demo",
+    type: "registry:example",
+    registryDependencies: ["texture-card", "texture-button"],
+    files: [
+      {
+        path: "example/texture-card-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "shift-card-demo",
+    type: "registry:example",
+    registryDependencies: ["shift-card", "texture-button"],
+    files: [
+      {
+        path: "example/shift-card-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "minimal-card-demo",
+    type: "registry:example",
+    registryDependencies: ["minimal-card"],
+    files: [
+      {
+        path: "example/minimal-card-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "dynamic-island-demo",
+    type: "registry:example",
+    registryDependencies: ["dynamic-island"],
+    files: [
+      {
+        path: "example/dynamic-island-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "direction-aware-tabs-demo",
+    type: "registry:example",
+    registryDependencies: ["direction-aware-tabs"],
+    files: [
+      {
+        path: "example/direction-aware-tabs-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "bg-animate-button-demo",
+    type: "registry:example",
+    registryDependencies: ["bg-animate-button"],
+    files: [
+      {
+        path: "example/bg-animate-button-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "family-button-demo",
+    type: "registry:example",
+    registryDependencies: ["family-button"],
+    files: [
+      {
+        path: "example/family-button-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "side-panel-demo",
+    type: "registry:example",
+    registryDependencies: ["side-panel"],
+    files: [
+      {
+        path: "example/side-panel-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "bg-media-demo",
+    type: "registry:example",
+    registryDependencies: ["bg-media"],
+    files: [
+      {
+        path: "example/bg-media-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "three-d-carousel-demo",
+    type: "registry:example",
+    registryDependencies: ["three-d-carousel"],
+    files: [
+      {
+        path: "example/three-d-carousel-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "tweet-grid-demo",
+    type: "registry:example",
+    registryDependencies: ["tweet-grid", "gradient-heading"],
+    files: [
+      {
+        path: "example/tweet-grid-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "gradient-heading-demo",
+    type: "registry:example",
+    registryDependencies: ["gradient-heading"],
+    files: [
+      {
+        path: "example/gradient-heading-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "typewriter-demo",
+    type: "registry:example",
+    registryDependencies: ["typewriter"],
+    files: [
+      {
+        path: "example/typewriter-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "animated-number-demo",
+    type: "registry:example",
+    registryDependencies: ["animated-number"],
+    files: [
+      {
+        path: "example/animated-number-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "sortable-list-demo",
+    type: "registry:example",
+    registryDependencies: ["sortable-list"],
+    files: [
+      {
+        path: "example/sortable-list-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "dock-demo",
+    type: "registry:example",
+    registryDependencies: ["dock"],
+    files: [
+      {
+        path: "example/dock-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "lightboard-demo",
+    type: "registry:example",
+    registryDependencies: ["lightboard"],
+    files: [
+      {
+        path: "example/lightboard-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "canvas-fractal-grid-demo",
+    type: "registry:example",
+    registryDependencies: ["canvas-fractal-grid"],
+    files: [
+      {
+        path: "example/canvas-fractal-grid-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+
+  {
+    name: "bg-animated-fractal-dot-grid-demo",
+    type: "registry:example",
+    registryDependencies: ["bg-animated-fractal-dot-grid"],
+    files: [
+      {
+        path: "example/bg-animated-fractal-dot-grid-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+
+  {
+    name: "bg-animated-gradient-demo",
+    type: "registry:example",
+    registryDependencies: ["bg-animated-gradient"],
+    files: [
+      {
+        path: "example/bg-animated-gradient-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+
+  {
+    name: "popover-demo",
+    type: "registry:example",
+    registryDependencies: ["popover"],
+    files: [
+      {
+        path: "example/popover-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "floating-panel-demo",
+    type: "registry:example",
+    registryDependencies: ["floating-panel"],
+    files: [
+      {
+        path: "example/floating-panel-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+
+  {
+    name: "color-picker-demo",
+    type: "registry:example",
+    registryDependencies: ["color-picker"],
+    files: [
+      {
+        path: "example/color-picker-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+
+  {
+    name: "shader-lens-blur-demo",
+    type: "registry:example",
+    registryDependencies: ["shader-lens-blur", "color-picker"],
+    files: [
+      {
+        path: "example/shader-lens-blur-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "popover-form-demo",
+    type: "registry:example",
+    registryDependencies: ["popover-form"],
+    files: [
+      {
+        path: "example/popover-form-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+  {
+    name: "expandable-demo",
+    type: "registry:example",
+    registryDependencies: ["expandable"],
+    files: [
+      {
+        path: "example/expandable-demo.tsx",
+        type: "registry:example",
+      },
+    ]
+  },
+
+  {
     name: "accordion-demo",
     type: "registry:example",
     registryDependencies: ["accordion"],
