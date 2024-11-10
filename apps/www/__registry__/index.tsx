@@ -453,6 +453,22 @@ export const Index: Record<string, any> = {
       subcategory: "",
       chunks: []
     },
+    "dock-rainbow": {
+      name: "dock-rainbow",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/new-york/ui/dock-rainbow.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/ui/dock-rainbow.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "lightboard": {
       name: "lightboard",
       description: "",
@@ -1357,6 +1373,278 @@ export const Index: Record<string, any> = {
       subcategory: "",
       chunks: []
     },
+    "animated-beam-multiple-outputs": {
+      name: "animated-beam-multiple-outputs",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["animated-beam"],
+      files: [{
+        path: "registry/new-york/example/animated-beam-multiple-outputs.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/animated-beam-multiple-outputs.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "animated-list-demo": {
+      name: "animated-list-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["animated-list"],
+      files: [{
+        path: "registry/new-york/example/animated-list-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/animated-list-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "bento-demo": {
+      name: "bento-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["bento-grid","marquee","animated-list-demo","animated-beam-multiple-outputs","shadcn:command","shadcn:calendar"],
+      files: [{
+        path: "registry/new-york/example/bento-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/bento-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "confetti-demo": {
+      name: "confetti-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/new-york/example/confetti-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/confetti-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "confetti-basic-cannon": {
+      name: "confetti-basic-cannon",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/new-york/example/confetti-basic-cannon.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/confetti-basic-cannon.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "confetti-random-direction": {
+      name: "confetti-random-direction",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/new-york/example/confetti-random-direction.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/confetti-random-direction.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "confetti-fireworks": {
+      name: "confetti-fireworks",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/new-york/example/confetti-fireworks.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/confetti-fireworks.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "confetti-stars": {
+      name: "confetti-stars",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/new-york/example/confetti-stars.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/confetti-stars.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "confetti-side-cannons": {
+      name: "confetti-side-cannons",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/new-york/example/confetti-side-cannons.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/confetti-side-cannons.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "confetti-custom-shapes": {
+      name: "confetti-custom-shapes",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/new-york/example/confetti-custom-shapes.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/confetti-custom-shapes.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "confetti-emoji": {
+      name: "confetti-emoji",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/new-york/example/confetti-emoji.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/confetti-emoji.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "context-menu-demo": {
+      name: "context-menu-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["context-menu"],
+      files: [{
+        path: "registry/new-york/example/context-menu-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/context-menu-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "cool-mode-demo": {
+      name: "cool-mode-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/new-york/example/cool-mode-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/cool-mode-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "cool-mode-custom": {
+      name: "cool-mode-custom",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/new-york/example/cool-mode-custom.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/cool-mode-custom.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "feedback-demo": {
+      name: "feedback-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["feedback"],
+      files: [{
+        path: "registry/new-york/example/feedback-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/feedback-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "spinner-demo": {
+      name: "spinner-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["spinner"],
+      files: [{
+        path: "registry/new-york/example/spinner-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/spinner-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "spinner-round": {
+      name: "spinner-round",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["spinner"],
+      files: [{
+        path: "registry/new-york/example/spinner-round.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/spinner-round.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "button-icon-right": {
       name: "button-icon-right",
       description: "",
@@ -2120,6 +2408,22 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: React.lazy(() => import("@/registry/new-york/example/dock-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "dock-rainbow-demo": {
+      name: "dock-rainbow-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["dock"],
+      files: [{
+        path: "registry/new-york/example/dock-rainbow-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/new-york/example/dock-rainbow-demo.tsx")),
       source: "",
       category: "",
       subcategory: "",
@@ -7450,6 +7754,22 @@ export const Index: Record<string, any> = {
       subcategory: "",
       chunks: []
     },
+    "dock-rainbow": {
+      name: "dock-rainbow",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/ui/dock-rainbow.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/ui/dock-rainbow.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "lightboard": {
       name: "lightboard",
       description: "",
@@ -8354,6 +8674,278 @@ export const Index: Record<string, any> = {
       subcategory: "",
       chunks: []
     },
+    "animated-beam-multiple-outputs": {
+      name: "animated-beam-multiple-outputs",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["animated-beam"],
+      files: [{
+        path: "registry/default/example/animated-beam-multiple-outputs.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/animated-beam-multiple-outputs.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "animated-list-demo": {
+      name: "animated-list-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["animated-list"],
+      files: [{
+        path: "registry/default/example/animated-list-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/animated-list-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "bento-demo": {
+      name: "bento-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["bento-grid","marquee","animated-list-demo","animated-beam-multiple-outputs","shadcn:command","shadcn:calendar"],
+      files: [{
+        path: "registry/default/example/bento-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/bento-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "confetti-demo": {
+      name: "confetti-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/example/confetti-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/confetti-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "confetti-basic-cannon": {
+      name: "confetti-basic-cannon",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/example/confetti-basic-cannon.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/confetti-basic-cannon.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "confetti-random-direction": {
+      name: "confetti-random-direction",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/example/confetti-random-direction.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/confetti-random-direction.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "confetti-fireworks": {
+      name: "confetti-fireworks",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/example/confetti-fireworks.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/confetti-fireworks.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "confetti-stars": {
+      name: "confetti-stars",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/example/confetti-stars.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/confetti-stars.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "confetti-side-cannons": {
+      name: "confetti-side-cannons",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/example/confetti-side-cannons.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/confetti-side-cannons.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "confetti-custom-shapes": {
+      name: "confetti-custom-shapes",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/example/confetti-custom-shapes.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/confetti-custom-shapes.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "confetti-emoji": {
+      name: "confetti-emoji",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/example/confetti-emoji.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/confetti-emoji.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "context-menu-demo": {
+      name: "context-menu-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["context-menu"],
+      files: [{
+        path: "registry/default/example/context-menu-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/context-menu-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "cool-mode-demo": {
+      name: "cool-mode-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/example/cool-mode-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/cool-mode-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "cool-mode-custom": {
+      name: "cool-mode-custom",
+      description: "",
+      type: "registry:example",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/example/cool-mode-custom.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/cool-mode-custom.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "feedback-demo": {
+      name: "feedback-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["feedback"],
+      files: [{
+        path: "registry/default/example/feedback-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/feedback-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "spinner-demo": {
+      name: "spinner-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["spinner"],
+      files: [{
+        path: "registry/default/example/spinner-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/spinner-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "spinner-round": {
+      name: "spinner-round",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["spinner"],
+      files: [{
+        path: "registry/default/example/spinner-round.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/spinner-round.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "button-icon-right": {
       name: "button-icon-right",
       description: "",
@@ -9117,6 +9709,22 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: React.lazy(() => import("@/registry/default/example/dock-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "dock-rainbow-demo": {
+      name: "dock-rainbow-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["dock"],
+      files: [{
+        path: "registry/default/example/dock-rainbow-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/dock-rainbow-demo.tsx")),
       source: "",
       category: "",
       subcategory: "",

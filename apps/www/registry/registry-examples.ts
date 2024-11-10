@@ -2,155 +2,149 @@ import { Registry } from "@/registry/schema"
 
 export const examples: Registry = [
   {
-    name: 'animated-beam-multiple-outputs',
-    type: 'registry:example',
-    registryDependencies: [ 'animated-beam' ],
+    name: "animated-beam-multiple-outputs",
+    type: "registry:example",
+    registryDependencies: ["animated-beam"],
     files: [
       {
-        path: 'example/animated-beam-multiple-outputs.tsx',
-        type: 'registry:example'
-      }
-    ]
-  },
-  {
-    name: 'animated-list-demo',
-    type: 'registry:example',
-    registryDependencies: [ 'animated-list' ],
-    files: [
-      {
-        path: 'example/animated-list-demo.tsx',
-        type: 'registry:example'
-      }
-    ]
-  },
-  {
-    name: 'bento-demo',
-    type: 'registry:example',
-    registryDependencies: [
-      'bento-grid',
-      'marquee',
-      'animated-list-demo',
-      'animated-beam-multiple-outputs',
-      'shadcn:command',
-      'shadcn:calendar'
+        path: "example/animated-beam-multiple-outputs.tsx",
+        type: "registry:example",
+      },
     ],
-    dependencies: [ '@radix-ui/react-icons' ],
-    files: [ { path: 'example/bento-demo.tsx', type: 'registry:example' } ]
   },
   {
-    name: 'confetti-demo',
-    type: 'registry:example',
-    files: [ { path: 'example/confetti-demo.tsx', type: 'registry:example' } ]
-  },
-  {
-    name: 'confetti-basic-cannon',
-    type: 'registry:example',
+    name: "animated-list-demo",
+    type: "registry:example",
+    registryDependencies: ["animated-list"],
     files: [
       {
-        path: 'example/confetti-basic-cannon.tsx',
-        type: 'registry:example'
-      }
-    ]
+        path: "example/animated-list-demo.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
-    name: 'confetti-random-direction',
-    type: 'registry:example',
+    name: "bento-demo",
+    type: "registry:example",
+    registryDependencies: [
+      "bento-grid",
+      "marquee",
+      "animated-list-demo",
+      "animated-beam-multiple-outputs",
+      "shadcn:command",
+      "shadcn:calendar",
+    ],
+    dependencies: ["@radix-ui/react-icons"],
+    files: [{ path: "example/bento-demo.tsx", type: "registry:example" }],
+  },
+  {
+    name: "confetti-demo",
+    type: "registry:example",
+    files: [{ path: "example/confetti-demo.tsx", type: "registry:example" }],
+  },
+  {
+    name: "confetti-basic-cannon",
+    type: "registry:example",
     files: [
       {
-        path: 'example/confetti-random-direction.tsx',
-        type: 'registry:example'
-      }
-    ]
+        path: "example/confetti-basic-cannon.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
-    name: 'confetti-fireworks',
-    type: 'registry:example',
+    name: "confetti-random-direction",
+    type: "registry:example",
     files: [
       {
-        path: 'example/confetti-fireworks.tsx',
-        type: 'registry:example'
-      }
-    ]
+        path: "example/confetti-random-direction.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
-    name: 'confetti-stars',
-    type: 'registry:example',
-    files: [
-      { path: 'example/confetti-stars.tsx', type: 'registry:example' }
-    ]
-  },
-  {
-    name: 'confetti-side-cannons',
-    type: 'registry:example',
+    name: "confetti-fireworks",
+    type: "registry:example",
     files: [
       {
-        path: 'example/confetti-side-cannons.tsx',
-        type: 'registry:example'
-      }
-    ]
+        path: "example/confetti-fireworks.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
-    name: 'confetti-custom-shapes',
-    type: 'registry:example',
+    name: "confetti-stars",
+    type: "registry:example",
+    files: [{ path: "example/confetti-stars.tsx", type: "registry:example" }],
+  },
+  {
+    name: "confetti-side-cannons",
+    type: "registry:example",
     files: [
       {
-        path: 'example/confetti-custom-shapes.tsx',
-        type: 'registry:example'
-      }
-    ]
+        path: "example/confetti-side-cannons.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
-    name: 'confetti-emoji',
-    type: 'registry:example',
-    files: [
-      { path: 'example/confetti-emoji.tsx', type: 'registry:example' }
-    ]
-  },
-  {
-    name: 'context-menu-demo',
-    type: 'registry:example',
-    registryDependencies: [ 'context-menu' ],
+    name: "confetti-custom-shapes",
+    type: "registry:example",
     files: [
       {
-        path: 'example/context-menu-demo.tsx',
-        type: 'registry:example'
-      }
-    ]
+        path: "example/confetti-custom-shapes.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
-    name: 'cool-mode-demo',
-    type: 'registry:example',
-    files: [
-      { path: 'example/cool-mode-demo.tsx', type: 'registry:example' }
-    ]
+    name: "confetti-emoji",
+    type: "registry:example",
+    files: [{ path: "example/confetti-emoji.tsx", type: "registry:example" }],
   },
   {
-    name: 'cool-mode-custom',
-    type: 'registry:example',
+    name: "context-menu-demo",
+    type: "registry:example",
+    registryDependencies: ["context-menu"],
     files: [
       {
-        path: 'example/cool-mode-custom.tsx',
-        type: 'registry:example'
-      }
-    ]
+        path: "example/context-menu-demo.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
-    name: 'feedback-demo',
-    type: 'registry:example',
-    registryDependencies: [ 'feedback' ],
-    files: [ { path: 'example/feedback-demo.tsx', type: 'registry:example' } ]
+    name: "cool-mode-demo",
+    type: "registry:example",
+    files: [{ path: "example/cool-mode-demo.tsx", type: "registry:example" }],
   },
   {
-    name: 'spinner-demo',
-    type: 'registry:example',
-    registryDependencies: [ 'spinner' ],
-    files: [ { path: 'example/spinner-demo.tsx', type: 'registry:example' } ]
+    name: "cool-mode-custom",
+    type: "registry:example",
+    files: [
+      {
+        path: "example/cool-mode-custom.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
-    name: 'spinner-round',
-    type: 'registry:example',
-    registryDependencies: [ 'spinner' ],
-    files: [ { path: 'example/spinner-round.tsx', type: 'registry:example' } ]
+    name: "feedback-demo",
+    type: "registry:example",
+    registryDependencies: ["feedback"],
+    files: [{ path: "example/feedback-demo.tsx", type: "registry:example" }],
+  },
+  {
+    name: "spinner-demo",
+    type: "registry:example",
+    registryDependencies: ["spinner"],
+    files: [{ path: "example/spinner-demo.tsx", type: "registry:example" }],
+  },
+  {
+    name: "spinner-round",
+    type: "registry:example",
+    registryDependencies: ["spinner"],
+    files: [{ path: "example/spinner-round.tsx", type: "registry:example" }],
   },
   {
     name: "button-icon-right",
