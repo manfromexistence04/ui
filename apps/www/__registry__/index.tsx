@@ -5,6 +5,166 @@ import * as React from "react"
 
 export const Index: Record<string, any> = {
   "default": {
+    "buttons": {
+      name: "buttons",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: undefined,
+      files: [{
+        path: "registry/default/ui/buttons.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/ui/buttons.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "text": {
+      name: "text",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: ["text"],
+      files: [{
+        path: "registry/default/ui/text.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/ui/text.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "tags-input": {
+      name: "tags-input",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: ["button","input","tags-input"],
+      files: [{
+        path: "registry/default/ui/tags-input.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/ui/tags-input.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "password-input": {
+      name: "password-input",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: ["button","input","password-input"],
+      files: [{
+        path: "registry/default/ui/password-input.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/ui/password-input.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "file-upload": {
+      name: "file-upload",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: ["button","input","file-upload"],
+      files: [{
+        path: "registry/default/ui/file-upload.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/ui/file-upload.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "phone-input": {
+      name: "phone-input",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: ["popover","command","button","phone-input"],
+      files: [{
+        path: "registry/default/ui/phone-input.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/ui/phone-input.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "smart-date-time-picker": {
+      name: "smart-date-time-picker",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: ["popover","calander","button","scroll-area","smart-date-time-picker"],
+      files: [{
+        path: "registry/default/ui/smart-date-time-picker.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/ui/smart-date-time-picker.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "date-time-picker": {
+      name: "date-time-picker",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: ["input","date-time-picker"],
+      files: [{
+        path: "registry/default/ui/date-time-picker.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/ui/date-time-picker.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "multi-select": {
+      name: "multi-select",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: ["badge","command","multi-select"],
+      files: [{
+        path: "registry/default/ui/multi-select.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/ui/multi-select.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "location-input": {
+      name: "location-input",
+      description: "",
+      type: "registry:ui",
+      registryDependencies: ["button","popover","scroll-area","command","location-picker"],
+      files: [{
+        path: "registry/default/ui/location-input.tsx",
+        type: "registry:ui",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/ui/location-input.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
     "text-animate": {
       name: "text-animate",
       description: "",
@@ -1192,6 +1352,486 @@ export const Index: Record<string, any> = {
         target: ""
       }],
       component: React.lazy(() => import("@/registry/default/ui/tooltip.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "button-icon-right": {
+      name: "button-icon-right",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["buttons"],
+      files: [{
+        path: "registry/default/example/buttons/icon-right.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/buttons/icon-right.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "button-icon-left": {
+      name: "button-icon-left",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["buttons"],
+      files: [{
+        path: "registry/default/example/buttons/icon-left.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/buttons/icon-left.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "button-gooey-right": {
+      name: "button-gooey-right",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["buttons"],
+      files: [{
+        path: "registry/default/example/buttons/gooey-right.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/buttons/gooey-right.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "button-gooey-left": {
+      name: "button-gooey-left",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["buttons"],
+      files: [{
+        path: "registry/default/example/buttons/gooey-left.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/buttons/gooey-left.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "button-shine": {
+      name: "button-shine",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["buttons"],
+      files: [{
+        path: "registry/default/example/buttons/shine.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/buttons/shine.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "button-ring-hover": {
+      name: "button-ring-hover",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["buttons"],
+      files: [{
+        path: "registry/default/example/buttons/ring-hover.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/buttons/ring-hover.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "button-link-hover-1": {
+      name: "button-link-hover-1",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["buttons"],
+      files: [{
+        path: "registry/default/example/buttons/link-hover-1.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/buttons/link-hover-1.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "button-link-hover-2": {
+      name: "button-link-hover-2",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["buttons"],
+      files: [{
+        path: "registry/default/example/buttons/link-hover-2.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/buttons/link-hover-2.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "blur-in": {
+      name: "blur-in",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["text"],
+      files: [{
+        path: "registry/default/example/texts/blur-in.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/texts/blur-in.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "rotate-text": {
+      name: "rotate-text",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["text"],
+      files: [{
+        path: "registry/default/example/texts/rotate-text.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/texts/rotate-text.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "fade-down-stagger": {
+      name: "fade-down-stagger",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["text"],
+      files: [{
+        path: "registry/default/example/texts/fade-down-stagger.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/texts/fade-down-stagger.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "fade-up-stagger": {
+      name: "fade-up-stagger",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["text"],
+      files: [{
+        path: "registry/default/example/texts/fade-up-stagger.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/texts/fade-up-stagger.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "letter-pull-up": {
+      name: "letter-pull-up",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["text"],
+      files: [{
+        path: "registry/default/example/texts/letter-pull-up.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/texts/letter-pull-up.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "multi-direction-slide": {
+      name: "multi-direction-slide",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["text"],
+      files: [{
+        path: "registry/default/example/texts/multi-direction-slide.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/texts/multi-direction-slide.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "staggered-fade-in": {
+      name: "staggered-fade-in",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["text"],
+      files: [{
+        path: "registry/default/example/texts/staggered-fade-in.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/texts/staggered-fade-in.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "typing-effect": {
+      name: "typing-effect",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["text"],
+      files: [{
+        path: "registry/default/example/texts/typing-effect.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/texts/typing-effect.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "velocity-scroll": {
+      name: "velocity-scroll",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["text"],
+      files: [{
+        path: "registry/default/example/texts/velocity-scroll.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/texts/velocity-scroll.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "word-pull-up": {
+      name: "word-pull-up",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["text"],
+      files: [{
+        path: "registry/default/example/texts/word-pull-up.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/texts/word-pull-up.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "separate-away": {
+      name: "separate-away",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["text"],
+      files: [{
+        path: "registry/default/example/texts/separate-away.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/texts/separate-away.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "gradual-spacing": {
+      name: "gradual-spacing",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["text"],
+      files: [{
+        path: "registry/default/example/texts/gradual-spacing.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/texts/gradual-spacing.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "slight-flip": {
+      name: "slight-flip",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["text"],
+      files: [{
+        path: "registry/default/example/texts/slight-flip.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/texts/slight-flip.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "wavy-text": {
+      name: "wavy-text",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["text"],
+      files: [{
+        path: "registry/default/example/texts/wavy-text.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/texts/wavy-text.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "tags-input-demo": {
+      name: "tags-input-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","form","tags-input-demo"],
+      files: [{
+        path: "registry/default/example/tags-input-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/tags-input-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "password-input-demo": {
+      name: "password-input-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","form","password-input-demo"],
+      files: [{
+        path: "registry/default/example/password-input-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/password-input-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "file-upload-demo": {
+      name: "file-upload-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","form","file-upload-demo"],
+      files: [{
+        path: "registry/default/example/file-upload-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/file-upload-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "phone-input-demo": {
+      name: "phone-input-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","form","phone-input-demo"],
+      files: [{
+        path: "registry/default/example/phone-input-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/phone-input-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "smart-date-time-picker-demo": {
+      name: "smart-date-time-picker-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","form","smart-date-time-picker-demo"],
+      files: [{
+        path: "registry/default/example/smart-date-time-picker-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/smart-date-time-picker-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "date-time-picker-demo": {
+      name: "date-time-picker-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["button","form","date-time-picker-demo"],
+      files: [{
+        path: "registry/default/example/date-time-picker-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/date-time-picker-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "multi-select-demo": {
+      name: "multi-select-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["multi-select"],
+      files: [{
+        path: "registry/default/example/multi-select-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/multi-select-demo.tsx")),
+      source: "",
+      category: "",
+      subcategory: "",
+      chunks: []
+    },
+    "location-input-demo": {
+      name: "location-input-demo",
+      description: "",
+      type: "registry:example",
+      registryDependencies: ["location-input"],
+      files: [{
+        path: "registry/default/example/location-input-demo.tsx",
+        type: "registry:example",
+        target: ""
+      }],
+      component: React.lazy(() => import("@/registry/default/example/location-input-demo.tsx")),
       source: "",
       category: "",
       subcategory: "",

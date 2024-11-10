@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
+  
   "scripts": {
     "dev": "next dev",
     "build": "contentlayer2 build && pnpm build:registry && next build",

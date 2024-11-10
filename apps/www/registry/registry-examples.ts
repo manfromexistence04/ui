@@ -5,183 +5,313 @@ export const examples: Registry = [
     name: "button-icon-right",
     type: "registry:example",
     registryDependencies: ["buttons"],
-    files: ["example/buttons/icon-right.tsx"],
+    files: [
+      {
+        path: "example/buttons/icon-right.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "button-icon-left",
     type: "registry:example",
     registryDependencies: ["buttons"],
-    files: ["example/buttons/icon-left.tsx"],
+    files: [
+      {
+        path: "example/buttons/icon-left.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "button-gooey-right",
     type: "registry:example",
     registryDependencies: ["buttons"],
-    files: ["example/buttons/gooey-right.tsx"],
+    files: [
+      {
+        path: "example/buttons/gooey-right.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "button-gooey-left",
     type: "registry:example",
     registryDependencies: ["buttons"],
-    files: ["example/buttons/gooey-left.tsx"],
+    files: [
+      {
+        path: "example/buttons/gooey-left.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "button-shine",
     type: "registry:example",
     registryDependencies: ["buttons"],
-    files: ["example/buttons/shine.tsx"],
+    files: [{ path: "example/buttons/shine.tsx", type: "registry:example" }],
   },
   {
     name: "button-ring-hover",
     type: "registry:example",
     registryDependencies: ["buttons"],
-    files: ["example/buttons/ring-hover.tsx"],
+    files: [
+      {
+        path: "example/buttons/ring-hover.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "button-link-hover-1",
     type: "registry:example",
     registryDependencies: ["buttons"],
-    files: ["example/buttons/link-hover-1.tsx"],
+    files: [
+      {
+        path: "example/buttons/link-hover-1.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "button-link-hover-2",
     type: "registry:example",
     registryDependencies: ["buttons"],
-    files: ["example/buttons/link-hover-2.tsx"],
+    files: [
+      {
+        path: "example/buttons/link-hover-2.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "blur-in",
     type: "registry:example",
     registryDependencies: ["text"],
-    files: ["example/texts/blur-in.tsx"],
+    files: [{ path: "example/texts/blur-in.tsx", type: "registry:example" }],
   },
   {
     name: "rotate-text",
     type: "registry:example",
     registryDependencies: ["text"],
-    files: ["example/texts/rotate-text.tsx"],
+    files: [
+      {
+        path: "example/texts/rotate-text.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "fade-down-stagger",
     type: "registry:example",
     registryDependencies: ["text"],
-    files: ["example/texts/fade-down-stagger.tsx"],
+    files: [
+      {
+        path: "example/texts/fade-down-stagger.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "fade-up-stagger",
     type: "registry:example",
     registryDependencies: ["text"],
-    files: ["example/texts/fade-up-stagger.tsx"],
+    files: [
+      {
+        path: "example/texts/fade-up-stagger.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "letter-pull-up",
     type: "registry:example",
     registryDependencies: ["text"],
-    files: ["example/texts/letter-pull-up.tsx"],
+    files: [
+      {
+        path: "example/texts/letter-pull-up.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "multi-direction-slide",
     type: "registry:example",
     registryDependencies: ["text"],
-    files: ["example/texts/multi-direction-slide.tsx"],
+    files: [
+      {
+        path: "example/texts/multi-direction-slide.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "staggered-fade-in",
     type: "registry:example",
     registryDependencies: ["text"],
-    files: ["example/texts/staggered-fade-in.tsx"],
+    files: [
+      {
+        path: "example/texts/staggered-fade-in.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "typing-effect",
     type: "registry:example",
     registryDependencies: ["text"],
-    files: ["example/texts/typing-effect.tsx"],
+    files: [
+      {
+        path: "example/texts/typing-effect.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "velocity-scroll",
     type: "registry:example",
     registryDependencies: ["text"],
-    files: ["example/texts/velocity-scroll.tsx"],
+    files: [
+      {
+        path: "example/texts/velocity-scroll.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "word-pull-up",
     type: "registry:example",
     registryDependencies: ["text"],
-    files: ["example/texts/word-pull-up.tsx"],
+    files: [
+      {
+        path: "example/texts/word-pull-up.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "separate-away",
     type: "registry:example",
     registryDependencies: ["text"],
-    files: ["example/texts/separate-away.tsx"],
+    files: [
+      {
+        path: "example/texts/separate-away.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "gradual-spacing",
     type: "registry:example",
     registryDependencies: ["text"],
-    files: ["example/texts/gradual-spacing.tsx"],
+    files: [
+      {
+        path: "example/texts/gradual-spacing.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "slight-flip",
     type: "registry:example",
     registryDependencies: ["text"],
-    files: ["example/texts/slight-flip.tsx"],
+    files: [
+      {
+        path: "example/texts/slight-flip.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "wavy-text",
     type: "registry:example",
     registryDependencies: ["text"],
-    files: ["example/texts/wavy-text.tsx"],
+    files: [{ path: "example/texts/wavy-text.tsx", type: "registry:example" }],
   },
   {
     name: "tags-input-demo",
     type: "registry:example",
     registryDependencies: ["button", "form", "tags-input-demo"],
-    files: ["example/tags-input-demo.tsx"],
+    files: [{ path: "example/tags-input-demo.tsx", type: "registry:example" }],
   },
   {
     name: "password-input-demo",
     type: "registry:example",
     registryDependencies: ["button", "form", "password-input-demo"],
-    files: ["example/password-input-demo.tsx"],
+    files: [
+      {
+        path: "example/password-input-demo.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "file-upload-demo",
     type: "registry:example",
     registryDependencies: ["button", "form", "file-upload-demo"],
-    files: ["example/file-upload-demo.tsx"],
+    files: [
+      {
+        path: "example/file-upload-demo.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "phone-input-demo",
     type: "registry:example",
     registryDependencies: ["button", "form", "phone-input-demo"],
-    files: ["example/phone-input-demo.tsx"],
+    files: [
+      {
+        path: "example/phone-input-demo.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "smart-date-time-picker-demo",
     type: "registry:example",
     registryDependencies: ["button", "form", "smart-date-time-picker-demo"],
-    files: ["example/smart-date-time-picker-demo.tsx"],
+    files: [
+      {
+        path: "example/smart-date-time-picker-demo.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "date-time-picker-demo",
     type: "registry:example",
     registryDependencies: ["button", "form", "date-time-picker-demo"],
-    files: ["example/date-time-picker-demo.tsx"],
+    files: [
+      {
+        path: "example/date-time-picker-demo.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "multi-select-demo",
     type: "registry:example",
     registryDependencies: ["multi-select"],
-    files: ["example/multi-select-demo.tsx"],
+    files: [
+      {
+        path: "example/multi-select-demo.tsx",
+        type: "registry:example",
+      },
+    ],
   },
   {
     name: "location-input-demo",
     type: "registry:example",
     registryDependencies: ["location-input"],
-    files: ["example/location-input-demo.tsx"],
+    files: [
+      {
+        path: "example/location-input-demo.tsx",
+        type: "registry:example",
+      },
+    ],
   },
-  
+
   {
     name: "text-animate-demo",
     type: "registry:example",
