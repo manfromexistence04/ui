@@ -19,7 +19,9 @@ import {
 } from "@/registry/new-york/ui/tabs"
 import { styles } from "@/registry/registry-styles"
 
-import RestartButton from "./restart-button"
+import RestartButton from "@/components/restart-button"
+import { Button } from "@/registry/default/ui/button"
+import { RotateCcw } from "lucide-react"
 
 interface ComponentPreviewProps extends React.HTMLAttributes<HTMLDivElement> {
   name: string
@@ -145,6 +147,19 @@ export function ComponentPreview({
               {restart ? (
                 <RestartButton onClick={() => setKey((prev) => prev + 1)} />
               ) : null}
+              <Button
+                onClick={() => setKey((prev) => prev + 1)}
+                size="icon"
+                variant="outline"
+                className={cn(
+                  "z-10 h-7 w-7 text-foreground opacity-100 hover:bg-muted hover:text-foreground ",
+                  className
+                )}
+              >
+                <RotateCcw className="h-3 w-3" />
+                OP
+                <span className="sr-only">Restart OP</span>
+              </Button>
               <CopyButton
                 value={codeString}
                 variant="outline"
