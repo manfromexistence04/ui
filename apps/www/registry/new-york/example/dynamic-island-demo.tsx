@@ -12,8 +12,8 @@ import {
   Waves,
 } from "lucide-react"
 
-import { Badge } from "@/registry/default/ui/badge"
-import { Button } from "@/registry/default/ui/button"
+import { Badge } from "@/registry/new-york/ui/badge"
+import { Button } from "@/registry/new-york/ui/button"
 import {
   DynamicContainer,
   DynamicDescription,
@@ -24,7 +24,7 @@ import {
   SizePresets,
   useDynamicIslandSize,
   useScheduledAnimations,
-} from "@/registry/default/ui/dynamic-island"
+} from "@/registry/new-york/ui/dynamic-island"
 
 const DynamicAction = () => {
   const { state: blobState, setSize } = useDynamicIslandSize()

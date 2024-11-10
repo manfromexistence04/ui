@@ -10,7 +10,7 @@ import {
   PopoverFormCutOutRightIcon,
   PopoverFormSeparator,
   PopoverFormSuccess,
-} from "@/registry/default/ui/popover-form"
+} from "@/registry/new-york/ui/popover-form"
 
 type FormState = "idle" | "loading" | "success"
 

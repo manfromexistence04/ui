@@ -17,7 +17,7 @@ import {
   DockCard,
   DockCardInner,
   DockDivider,
-} from "@/registry/default/ui/dock-rainbow"
+} from "@/registry/new-york/ui/dock-rainbow"
 
 function useIsMobile() {
   const [isMobile, setIsMobile] = useState(false)

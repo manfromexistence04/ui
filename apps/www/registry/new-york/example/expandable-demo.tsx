@@ -26,9 +26,9 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@/registry/default/ui/avatar"
-import { Badge } from "@/registry/default/ui/badge"
-import { Button } from "@/registry/default/ui/button"
+} from "@/registry/new-york/ui/avatar"
+import { Badge } from "@/registry/new-york/ui/badge"
+import { Button } from "@/registry/new-york/ui/button"
 import {
   Expandable,
   ExpandableCard,
@@ -37,13 +37,13 @@ import {
   ExpandableCardHeader,
   ExpandableContent,
   ExpandableTrigger,
-} from "@/registry/default/ui/expandable"
+} from "@/registry/new-york/ui/expandable"
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/registry/default/ui/tooltip"
+} from "@/registry/new-york/ui/tooltip"
 
 // _____________________EXAMPLES______________________
 function DesignSyncExample() {

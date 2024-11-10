@@ -3,7 +3,7 @@ import {
   MinimalCardDescription,
   MinimalCardImage,
   MinimalCardTitle,
-} from "@/registry/default/ui/minimal-card"
+} from "@/registry/new-york/ui/minimal-card"
 
 export default function MinimalCardDemo() {
   const cards = [

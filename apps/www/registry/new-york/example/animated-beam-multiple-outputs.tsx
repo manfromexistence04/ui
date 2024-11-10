@@ -3,7 +3,7 @@
 import React, { forwardRef, useRef } from "react"
 
 import { cn } from "@/lib/utils"
-import { AnimatedBeam } from "@/registry/default/ui/animated-beam"
+import { AnimatedBeam } from "@/registry/new-york/ui/animated-beam"
 
 const Circle = forwardRef<
   HTMLDivElement,

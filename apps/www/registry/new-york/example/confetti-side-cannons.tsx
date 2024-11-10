@@ -1,6 +1,6 @@
 import confetti from "canvas-confetti"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/new-york/ui/button"
 
 export default function ConfettiSideCannons() {
   const handleClick = () => {

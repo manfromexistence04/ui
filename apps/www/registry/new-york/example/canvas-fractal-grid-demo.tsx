@@ -8,33 +8,33 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/registry/default/ui/accordion"
-import { Button } from "@/registry/default/ui/button"
-import { CanvasFractalGrid } from "@/registry/default/ui/canvas-fractal-grid"
+} from "@/registry/new-york/ui/accordion"
+import { Button } from "@/registry/new-york/ui/button"
+import { CanvasFractalGrid } from "@/registry/new-york/ui/canvas-fractal-grid"
 import {
   Card,
   CardContent,
   CardHeader,
   CardTitle,
-} from "@/registry/default/ui/card"
-import { Input } from "@/registry/default/ui/input"
-import { Label } from "@/registry/default/ui/label"
+} from "@/registry/new-york/ui/card"
+import { Input } from "@/registry/new-york/ui/input"
+import { Label } from "@/registry/new-york/ui/label"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/registry/default/ui/select"
-import { Slider } from "@/registry/default/ui/slider"
-import { Switch } from "@/registry/default/ui/switch"
+} from "@/registry/new-york/ui/select"
+import { Slider } from "@/registry/new-york/ui/slider"
+import { Switch } from "@/registry/new-york/ui/switch"
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@/registry/default/ui/tabs"
-import { useToast } from "@/registry/default/ui/use-toast"
+} from "@/registry/new-york/ui/tabs"
+import { useToast } from "@/registry/new-york/ui/use-toast"
 
 type GradientStop = {
   color: string
@@ -120,7 +120,7 @@ export function ConfigurableCanvasFractalGrid() {
     const configString = `
 "use client"
 
-import { CanvasFractalGrid } from "@/registry/default/ui/canvas-fractal-grid"
+import { CanvasFractalGrid } from "@/registry/new-york/ui/canvas-fractal-grid"
 
 export function CanvasFractalGridExample() {
   return (

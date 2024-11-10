@@ -7,7 +7,7 @@ import {
   Size,
   Variant,
   Weight,
-} from "@/registry/default/ui/gradient-heading"
+} from "@/registry/new-york/ui/gradient-heading"
 
 export default function GradientHeadingDemo() {
   const variants: Variant[] = ["default", "pink", "light"]

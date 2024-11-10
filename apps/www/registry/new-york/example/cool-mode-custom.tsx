@@ -1,5 +1,5 @@
-import { Button } from "@/registry/default/ui/button"
-import { CoolMode } from "@/registry/default/ui/cool-mode"
+import { Button } from "@/registry/new-york/ui/button"
+import { CoolMode } from "@/registry/new-york/ui/cool-mode"
 
 export default function CoolModeCustom() {
   return (

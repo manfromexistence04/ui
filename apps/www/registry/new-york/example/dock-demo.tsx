@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Dock, DockIcon } from "@/registry/default/ui/dock"
+import { Dock, DockIcon } from "@/registry/new-york/ui/dock"
 
 export type IconProps = React.HTMLAttributes<SVGElement>
 

@@ -8,25 +8,25 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/registry/default/ui/accordion"
-import { GradientAnimation } from "@/registry/default/ui/bg-animated-gradient"
-import { Button } from "@/registry/default/ui/button"
+} from "@/registry/new-york/ui/accordion"
+import { GradientAnimation } from "@/registry/new-york/ui/bg-animated-gradient"
+import { Button } from "@/registry/new-york/ui/button"
 import {
   Card,
   CardContent,
   CardHeader,
   CardTitle,
-} from "@/registry/default/ui/card"
-import { Input } from "@/registry/default/ui/input"
-import { Label } from "@/registry/default/ui/label"
-import { Slider } from "@/registry/default/ui/slider"
+} from "@/registry/new-york/ui/card"
+import { Input } from "@/registry/new-york/ui/input"
+import { Label } from "@/registry/new-york/ui/label"
+import { Slider } from "@/registry/new-york/ui/slider"
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@/registry/default/ui/tabs"
-import { useToast } from "@/registry/default/ui/use-toast"
+} from "@/registry/new-york/ui/tabs"
+import { useToast } from "@/registry/new-york/ui/use-toast"
 
 type GradientStop = {
   color: string

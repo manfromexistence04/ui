@@ -1,4 +1,4 @@
-import { ConfettiButton } from "@/registry/default/ui/confetti"
+import { ConfettiButton } from "@/registry/new-york/ui/confetti"
 
 export default function ConfettiButtonDemo() {
   return (

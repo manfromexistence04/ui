@@ -2,7 +2,7 @@
 
 import { ChevronLeft, Trash, X } from "lucide-react"
 
-import { TextureButton } from "@/registry/default/ui/texture-button"
+import { TextureButton } from "@/registry/new-york/ui/texture-button"
 
 export default function TextureButtonDemo() {
   return (

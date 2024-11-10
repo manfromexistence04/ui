@@ -4,9 +4,9 @@ import { BellIcon, Share2Icon } from "lucide-react"
 import { cn } from "@/lib/utils"
 import AnimatedBeamMultipleOutputDemo from "@/registry/default/example/animated-beam-multiple-outputs"
 import AnimatedListDemo from "@/registry/default/example/animated-list-demo"
-import { BentoCard, BentoGrid } from "@/registry/default/ui/bento-grid"
-import { Calendar } from "@/registry/default/ui/calendar"
-import Marquee from "@/registry/default/ui/marquee"
+import { BentoCard, BentoGrid } from "@/registry/new-york/ui/bento-grid"
+import { Calendar } from "@/registry/new-york/ui/calendar"
+import Marquee from "@/registry/new-york/ui/marquee"
 
 const files = [
   {

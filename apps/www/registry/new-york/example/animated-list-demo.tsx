@@ -1,7 +1,7 @@
 "use client"
 
 import { cn } from "@/lib/utils"
-import { AnimatedList } from "@/registry/default/ui/animated-list"
+import { AnimatedList } from "@/registry/new-york/ui/animated-list"
 
 interface Item {
   name: string

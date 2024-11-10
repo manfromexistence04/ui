@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 
-import { LightBoard, PatternCell } from "@/registry/default/ui/lightboard"
+import { LightBoard, PatternCell } from "@/registry/new-york/ui/lightboard"
 
 export default function LightBoardDemo() {
   const [controlledDrawState, setControlledDrawState] =

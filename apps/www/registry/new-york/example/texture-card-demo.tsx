@@ -2,9 +2,9 @@
 
 import { ArrowRight, Merge } from "lucide-react"
 
-import { Input } from "@/registry/default/ui/input"
-import { Label } from "@/registry/default/ui/label"
-import { TextureButton } from "@/registry/default/ui/texture-button"
+import { Input } from "@/registry/new-york/ui/input"
+import { Label } from "@/registry/new-york/ui/label"
+import { TextureButton } from "@/registry/new-york/ui/texture-button"
 import {
   TextureCardContent,
   TextureCardFooter,
@@ -12,7 +12,7 @@ import {
   TextureCardStyled,
   TextureCardTitle,
   TextureSeparator,
-} from "@/registry/default/ui/texture-card"
+} from "@/registry/new-york/ui/texture-card"
 
 export default function TextureCardDemo() {
   return (

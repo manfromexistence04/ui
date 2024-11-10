@@ -1,7 +1,7 @@
 "use client"
 
-import { BgAnimateButton } from "@/registry/default/ui/bg-animate-button"
-import { DirectionAwareTabs } from "@/registry/default/ui/direction-aware-tabs"
+import { BgAnimateButton } from "@/registry/new-york/ui/bg-animate-button"
+import { DirectionAwareTabs } from "@/registry/new-york/ui/direction-aware-tabs"
 
 const DirectionAwareTabsDemo = ({}) => {
   const tabs = [

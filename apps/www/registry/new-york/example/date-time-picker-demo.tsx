@@ -7,8 +7,8 @@ import { toast } from "sonner"
 import * as z from "zod"
 
 import { cn } from "@/lib/utils"
-import { Button } from "@/registry/default/ui/button"
-import { DatetimePicker } from "@/registry/default/ui/date-time-picker"
+import { Button } from "@/registry/new-york/ui/button"
+import { DatetimePicker } from "@/registry/new-york/ui/date-time-picker"
 import {
   Form,
   FormControl,
@@ -17,7 +17,7 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/registry/default/ui/form"
+} from "@/registry/new-york/ui/form"
 
 const formSchema = z.object({
   dub: z.coerce.date(),

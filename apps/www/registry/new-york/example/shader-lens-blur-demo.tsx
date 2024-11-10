@@ -10,27 +10,27 @@ import {
   CardContent,
   CardHeader,
   CardTitle,
-} from "@/registry/default/ui/card"
-import ColorPicker from "@/registry/default/ui/color-picker"
-import { Label } from "@/registry/default/ui/label"
+} from "@/registry/new-york/ui/card"
+import ColorPicker from "@/registry/new-york/ui/color-picker"
+import { Label } from "@/registry/new-york/ui/label"
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/registry/default/ui/popover"
+} from "@/registry/new-york/ui/popover"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/registry/default/ui/select"
-import { Separator } from "@/registry/default/ui/separator"
+} from "@/registry/new-york/ui/select"
+import { Separator } from "@/registry/new-york/ui/separator"
 import ShaderLensBlur, {
   configAtom,
-} from "@/registry/default/ui/shader-lens-blur"
-import { Slider } from "@/registry/default/ui/slider"
-import { Switch } from "@/registry/default/ui/switch"
+} from "@/registry/new-york/ui/shader-lens-blur"
+import { Slider } from "@/registry/new-york/ui/slider"
+import { Switch } from "@/registry/new-york/ui/switch"
 
 function ShaderLensBlurDemo() {
   return (

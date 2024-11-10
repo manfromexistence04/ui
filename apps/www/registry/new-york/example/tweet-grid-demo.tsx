@@ -2,8 +2,8 @@
 
 import * as React from "react"
 
-import { GradientHeading } from "@/registry/default/ui/gradient-heading"
-import { TweetGrid } from "@/registry/default/ui/tweet-grid"
+import { GradientHeading } from "@/registry/new-york/ui/gradient-heading"
+import { TweetGrid } from "@/registry/new-york/ui/tweet-grid"
 
 // Grab tweet ids
 const exampleTweets = [

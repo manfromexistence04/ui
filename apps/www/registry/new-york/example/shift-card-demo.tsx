@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion"
 
-import { ShiftCard } from "@/registry/default/ui/shift-card"
-import { TextureButton } from "@/registry/default/ui/texture-button"
+import { ShiftCard } from "@/registry/new-york/ui/shift-card"
+import { TextureButton } from "@/registry/new-york/ui/texture-button"
 
 export default function ShiftCardDemo() {
   // Content for the top part of the card

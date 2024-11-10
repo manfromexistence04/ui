@@ -5,15 +5,15 @@ import { motion } from "framer-motion"
 import { Check, Copy, Lock, LockOpen, Palette, RefreshCw } from "lucide-react"
 import { Poline, positionFunctions } from "poline"
 
-import { Button } from "@/registry/default/ui/button"
-import { Card, CardContent } from "@/registry/default/ui/card"
-import ColorPicker from "@/registry/default/ui/color-picker"
+import { Button } from "@/registry/new-york/ui/button"
+import { Card, CardContent } from "@/registry/new-york/ui/card"
+import ColorPicker from "@/registry/new-york/ui/color-picker"
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/registry/default/ui/tooltip"
+} from "@/registry/new-york/ui/tooltip"
 
 type ColorScheme = {
   [key: string]: string

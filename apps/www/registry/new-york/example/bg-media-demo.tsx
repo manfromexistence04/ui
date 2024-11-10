@@ -1,4 +1,4 @@
-import BackgroundMedia from "@/registry/default/ui/bg-media"
+import BackgroundMedia from "@/registry/new-york/ui/bg-media"
 
 export default function BgMediaDemo() {
   return (

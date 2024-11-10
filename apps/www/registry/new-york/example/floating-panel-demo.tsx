@@ -17,7 +17,7 @@ import {
   FloatingPanelSubmitButton,
   FloatingPanelTextarea,
   FloatingPanelTrigger,
-} from "@/registry/default/ui/floating-panel"
+} from "@/registry/new-york/ui/floating-panel"
 
 function FloatingPanelInput() {
   const handleSubmit = (note: string) => {

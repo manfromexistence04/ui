@@ -4,15 +4,15 @@ import { useState } from "react"
 import { Minus, Plus } from "lucide-react"
 import { toast } from "sonner"
 
-import { AnimatedNumber } from "@/registry/default/ui/animated-number"
-import { Button } from "@/registry/default/ui/button"
-import { GradientHeading } from "@/registry/default/ui/gradient-heading"
-import { Slider } from "@/registry/default/ui/slider"
+import { AnimatedNumber } from "@/registry/new-york/ui/animated-number"
+import { Button } from "@/registry/new-york/ui/button"
+import { GradientHeading } from "@/registry/new-york/ui/gradient-heading"
+import { Slider } from "@/registry/new-york/ui/slider"
 import {
   TextureCardContent,
   TextureCardHeader,
   TextureCardStyled,
-} from "@/registry/default/ui/texture-card"
+} from "@/registry/new-york/ui/texture-card"
 
 function PrecisionExample() {
   const [value, setValue] = useState(14.5678)
