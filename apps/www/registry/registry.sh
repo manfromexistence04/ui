@@ -14,3 +14,4 @@ for file in "$source_dir"/*; do
 done
 
 # find . -maxdepth 1 -name "copy_*" -delete
+# for file in copy_*; do mv "$file" "${file#copy_}-${counter}.${file##*.}"; ((counter++)); done
