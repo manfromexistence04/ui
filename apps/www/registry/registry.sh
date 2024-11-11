@@ -1,7 +1,7 @@
 #!/bin/bash
 
-source_dir="/workspace/ui/apps/www/registry/default/example"
-dest_dir="/workspace/ui/apps/www/registry/new-york/example"
+source_dir="/workspace/ui/integration/indie-ui/content/docs"
+dest_dir="/workspace/ui/apps/www/content/docs/components"
 
 for file in "$source_dir"/*; do
   if [ -f "$file" ]; then
