@@ -38,7 +38,7 @@ export function FadeDownStagger({ key }: { key: number }) {
       }}
     >
       <motion.h1
-        className="font-display text-center text-4xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
+        className="font-display text-center text-2xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
         variants={FADE_DOWN_ANIMATION_VARIANTS}
       >
         Fade Down
@@ -81,7 +81,7 @@ export function FadeUpStagger({ key }: { key: number }) {
       }}
     >
       <motion.h1
-        className="font-display text-center text-4xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
+        className="font-display text-center text-2xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
         variants={FADE_UP_ANIMATION_VARIANTS}
       >
         Fade Up
@@ -115,7 +115,7 @@ export function MultiDirectionSlide({ key }: { key: number }) {
         animate="visible"
         variants={MULTIDIRECTION_SLIDE_VARIANTS}
         transition={{ duration: 1 }}
-        className="font-display text-center text-4xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
+        className="font-display text-center text-2xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
       >
         Multi Direction
       </motion.h1>
@@ -125,7 +125,7 @@ export function MultiDirectionSlide({ key }: { key: number }) {
         animate="visible"
         variants={MULTIDIRECTION_SLIDE_VARIANTS}
         transition={{ duration: 1 }}
-        className="font-display text-center text-4xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
+        className="font-display text-center text-2xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
       >
         Slide
       </motion.h1>
@@ -145,7 +145,7 @@ export function StaggeredFadeIn() {
     <motion.h1
       initial="hidden"
       animate="visible"
-      className="font-display text-center text-4xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
+      className="font-display text-center text-2xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
     >
       {words.map((word, i) => (
         <motion.span key={word} variants={wordVariants} custom={i}>
@@ -180,7 +180,7 @@ export function LetterPullUp() {
           initial="initial"
           animate="animate"
           custom={i}
-          className="font-display text-center text-4xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
+          className="font-display text-center text-2xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
         >
           {letter === " " ? <span>&nbsp;</span> : letter}
         </motion.h1>
@@ -211,7 +211,7 @@ export function WordPullUp() {
       variants={container}
       initial="hidden"
       animate="show"
-      className="font-display text-center text-4xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
+      className="font-display text-center text-2xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
     >
       {words.split(" ").map((word, i) => (
         <motion.span
@@ -275,7 +275,7 @@ export function VelocityScroll() {
     return (
       <div className="parallax">
         <motion.div
-          className="scroller font-display text-center text-4xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
+          className="scroller font-display text-center text-2xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
           style={{ x }}
         >
           <span>{children} </span>
@@ -314,7 +314,7 @@ export function RotateText() {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 50 }}
         transition={{ duration: 0.5 }}
-        className="font-display text-center text-4xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
+        className="font-display text-center text-2xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
       >
         {words[index]}
       </motion.h1>
@@ -343,7 +343,7 @@ export function TypingEffect() {
   }, [i])
 
   return (
-    <h1 className="font-display text-center text-4xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]">
+    <h1 className="font-display text-center text-2xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]">
       {displayedText ? displayedText : "Typing Effect"}
     </h1>
   )
@@ -365,7 +365,7 @@ export function SeparateAway() {
         variants={variants1}
         initial="hidden"
         animate="visible"
-        className="font-display text-center text-4xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
+        className="font-display text-center text-2xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
       >
         Separate
       </motion.h1>
@@ -374,7 +374,7 @@ export function SeparateAway() {
         variants={variants1}
         initial="hidden"
         animate="visible"
-        className="font-display text-center text-4xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
+        className="font-display text-center text-2xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
       >
         Away
       </motion.h1>
@@ -399,7 +399,7 @@ export function GradualSpacing() {
             exit="hidden"
             variants={gradual}
             transition={{ duration: 0.5, delay: i * 0.1 }}
-            className="font-display text-center text-4xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
+            className="font-display text-center text-2xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
           >
             {char === " " ? <span>&nbsp;</span> : char}
           </motion.h1>
@@ -420,7 +420,7 @@ export function BlurIn() {
       animate="visible"
       transition={{ duration: 1 }}
       variants={variants1}
-      className="font-display text-center text-4xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
+      className="font-display text-center text-2xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
     >
       Blur In
     </motion.h1>
@@ -444,7 +444,7 @@ export function SlightFlip() {
             exit="hidden"
             variants={variants1}
             transition={{ duration: 0.5, delay: i * 0.2 }}
-            className="font-display text-center text-4xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
+            className="font-display text-center text-2xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
             style={{ transformOrigin: "50% 50%" }}
           >
             {char}
@@ -472,7 +472,7 @@ export function WavyText() {
             exit="hidden"
             variants={variants1}
             transition={{ yoyo: Infinity, duration: 0.5, delay: i * 0.2 }}
-            className="font-display text-center text-4xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
+            className="font-display text-center text-2xl font-bold tracking-[-0.02em] drop-shadow-sm md:text-7xl md:leading-[5rem]"
           >
             {char}
           </motion.h1>
