@@ -280,8 +280,6 @@ export function VelocityScroll() {
         >
           <span>{children} </span>
           <span>{children} </span>
-          <span>{children} </span>
-          <span>{children} </span>
         </motion.div>
       </div>
     )
