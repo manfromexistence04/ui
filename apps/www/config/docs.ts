@@ -17,28 +17,28 @@ export const docsConfig: DocsConfig = {
       href: "/docs",
     },
     {
-      title: "Components",
-      href: "/docs/components/accordion",
+      title: "Renderers",
+      href: "/renderers",
     },
     {
       title: "Blocks",
       href: "/blocks",
     },
     {
-      title: "Charts",
-      href: "/charts",
+      title: "Canvases",
+      href: "/canvases",
     },
     {
       title: "Themes",
       href: "/themes",
     },
     {
-      title: "Examples",
-      href: "/examples",
+      title: "Varients",
+      href: "/varients",
     },
     {
-      title: "Colors",
-      href: "/colors",
+      title: "More",
+      href: "/more",
     },
   ],
   sidebarNav: [
@@ -145,6 +145,437 @@ export const docsConfig: DocsConfig = {
     {
       title: "Components",
       items: [
+        {
+          title: "Dock",
+          href: "/docs/components/dock",
+          items: [],
+        },
+        {
+          title: "Bento Grid",
+          href: "/docs/components/bento-grid",
+          items: [],
+        },
+        {
+          title: "Confetti",
+          href: "/docs/components/confetti",
+          items: [],
+        },
+        {
+          title: "Cool Mode",
+          href: "/docs/components/cool-mode",
+          items: [],
+        },
+        {
+          title: "Spinner",
+          href: "/docs/components/spinner",
+          items: [],
+        },
+        {
+          title: "Feedback",
+          href: "/docs/components/feedback",
+          items: [],
+        },
+        {
+          title: "Location Input",
+          href: "/docs/components/location-input",
+          items: [],
+        },
+        {
+          title: "Multi Select",
+          href: "/docs/components/multi-select",
+          items: [],
+        },
+        {
+          title: "Smart Date Time Picker",
+          href: "/docs/components/smart-date-time-picker",
+          items: [],
+        },
+        {
+          title: "Date Time Picker",
+          href: "/docs/components/date-time-picker",
+          items: [],
+        },
+        {
+          title: "Phone Input",
+          href: "/docs/components/phone-input",
+          items: [],
+        },
+        {
+          title: "Password Input",
+          href: "/docs/components/password-input",
+          items: [],
+        },
+
+        {
+          title: "Tags Input",
+          href: "/docs/components/tags-input",
+          items: [],
+        },
+        {
+          title: "File Upload",
+          href: "/docs/components/file-upload",
+          items: [],
+        },
+        {
+          title: "Texts",
+          href: "/docs/components/texts",
+          items: [],
+        },
+        {
+          title: "Buttons",
+          href: "/docs/components/buttons",
+          items: [],
+        },
+        {
+          title: "Background",
+          href: "/docs/components/background",
+          items: [],
+        },
+        {
+          title: "Card",
+          href: "/docs/components/card",
+          items: [],
+        },
+        {
+          title: "Tablist",
+          href: "/docs/components/tablist",
+          items: [],
+        },
+        {
+          title: "Video",
+          href: "/docs/components/video",
+          items: [],
+        },
+        {
+          title: "Audio",
+          href: "/docs/components/audio",
+          items: [],
+        },
+        {
+          title: "3d",
+          href: "/docs/components/3d",
+          items: [],
+        },
+        {
+          title: "AR",
+          href: "/docs/components/ar",
+          items: [],
+        },
+        {
+          title: "VR",
+          href: "/docs/components/vr",
+          items: [],
+        },
+        {
+          title: "Color Picker",
+          href: "/docs/components/color-picker",
+          items: [],
+        },
+        {
+          title: "Notification",
+          href: "/docs/components/notification",
+          items: [],
+        },
+        {
+          title: "Navbar",
+          href: "/docs/components/navbar",
+          items: [],
+        },
+        {
+          title: "Bottombar",
+          href: "/docs/components/bottombar",
+          items: [],
+        },
+        {
+          title: "Footer",
+          href: "/docs/components/footer",
+          items: [],
+        },
+        {
+          title: "Speed Dial",
+          href: "/docs/components/speed-dial",
+          items: [],
+        },
+        {
+          title: "Language Picker",
+          href: "/docs/components/language-picker",
+          items: [],
+        },
+        {
+          title: "Emoji Picker",
+          href: "/docs/components/emoji-picker",
+          items: [],
+        },
+        {
+          title: "GIF Picker",
+          href: "/docs/components/gif-picker",
+          items: [],
+        },
+        {
+          title: "Popdelete",
+          href: "/docs/components/popdelete",
+          items: [],
+        },
+        {
+          title: "Double Popover",
+          href: "/docs/components/double-popover",
+          items: [],
+        },
+        {
+          title: "Two Step Popover",
+          href: "/docs/components/two-step-popover",
+          items: [],
+        },
+        {
+          title: "Tooltip",
+          href: "/docs/components/tooltip",
+          items: [],
+        },
+        {
+          title: "Searchbar",
+          href: "/docs/components/searchbar",
+          items: [],
+        },
+        {
+          title: "Stage Manager",
+          href: "/docs/components/stage-manager",
+          items: [],
+        },
+        {
+          title: "Dynamic Island",
+          href: "/docs/components/dynamic-island",
+          items: [],
+        },
+        {
+          title: "Statusbar",
+          href: "/docs/components/statusbar",
+          items: [],
+        },
+        {
+          title: "Image",
+          href: "/docs/components/image",
+          items: [],
+        },
+        {
+          title: "List",
+          href: "/docs/components/list",
+          items: [],
+        },
+        {
+          title: "Tour",
+          href: "/docs/components/tour",
+          items: [],
+        },
+        {
+          title: "Statics",
+          href: "/docs/components/statics",
+          items: [],
+        },
+        {
+          title: "Timeline",
+          href: "/docs/components/timeline",
+          items: [],
+        },
+        {
+          title: "Description",
+          href: "/docs/components/description",
+          items: [],
+        },
+        {
+          title: "Treeselect",
+          href: "/docs/components/treeselect",
+          items: [],
+        },
+        {
+          title: "Number Input",
+          href: "/docs/components/number-input",
+          items: [],
+        },
+        {
+          title: "Mention",
+          href: "/docs/components/mention",
+          items: [],
+        },
+        {
+          title: "Transfer",
+          href: "/docs/components/transfer",
+          items: [],
+        },
+        {
+          title: "Cascader",
+          href: "/docs/components/cascader",
+          items: [],
+        },
+        {
+          title: "Autocomplete",
+          href: "/docs/components/autocomplete",
+          items: [],
+        },
+        {
+          title: "Steps",
+          href: "/docs/components/steps",
+          items: [],
+        },
+        {
+          title: "Anchor",
+          href: "/docs/components/Anchor",
+          items: [],
+        },
+        {
+          title: "DND",
+          href: "/docs/components/dnd",
+          items: [],
+        },
+        {
+          title: "Particles",
+          href: "/docs/components/particles",
+          items: [],
+        },
+        {
+          title: "Power Mode",
+          href: "/docs/components/power-mode",
+          items: [],
+        },
+
+        {
+          title: "Animated Number",
+          href: "/docs/components/animated-number",
+          items: [],
+        },
+        {
+          title: "Bg Animate Button",
+          href: "/docs/components/bg-animate-button",
+          items: [],
+        },
+        {
+          title: "Bg Media Hero",
+          href: "/docs/components/bg-media",
+          items: [],
+        },
+        {
+          title: "Color Picker",
+          href: "/docs/components/color-picker",
+          items: [],
+        },
+        {
+          title: "Direction Aware Tabs",
+          href: "/docs/components/direction-aware-tabs",
+          items: [],
+        },
+        {
+          title: "Dynamic Island",
+          href: "/docs/components/dynamic-island",
+          items: [],
+        },
+
+        {
+          title: "Expandable",
+          href: "/docs/components/expandable",
+          items: [],
+          label: "new",
+        },
+        {
+          title: "Family Button",
+          href: "/docs/components/family-button",
+          items: [],
+        },
+        {
+          title: "Floating Panel",
+          href: "/docs/components/floating-panel",
+          items: [],
+          label: "new",
+        },
+        {
+          title: "Gradient Heading",
+          href: "/docs/components/gradient-heading",
+          items: [],
+        },
+        {
+          title: "Minimal Card",
+          href: "/docs/components/minimal-card",
+          items: [],
+        },
+        {
+          title: "Popover",
+          href: "/docs/components/popover",
+          items: [],
+          label: "",
+        },
+        {
+          title: "Popover Form",
+          href: "/docs/components/popover-form",
+          items: [],
+          label: "new",
+        },
+        {
+          title: "Shift Card",
+          href: "/docs/components/shift-card",
+          items: [],
+        },
+        {
+          title: "Side Panel",
+          href: "/docs/components/side-panel",
+          items: [],
+        },
+        {
+          title: "Sortable List",
+          href: "/docs/components/sortable-list",
+          items: [],
+          label: "new",
+        },
+        {
+          title: "Text Animate",
+          href: "/docs/components/text-animate",
+          items: [],
+        },
+        {
+          title: "Texture Button",
+          href: "/docs/components/texture-button",
+          items: [],
+        },
+        {
+          title: "Texture Card",
+          href: "/docs/components/texture-card",
+          items: [],
+        },
+        {
+          title: "3D Carousel",
+          href: "/docs/components/three-d-carousel",
+          items: [],
+        },
+        {
+          title: "LightBoard",
+          href: "/docs/components/lightboard",
+          items: [],
+        },
+        {
+          title: "MacOS Dock",
+          href: "/docs/components/dock",
+          items: [],
+        },
+        {
+          title: "Fractal Grid",
+          href: "/docs/components/bg-animated-fractal-grid",
+          items: [],
+          label: "new",
+        },
+        {
+          title: "Shader Lens Blur",
+          href: "/docs/components/shader-lens-blur",
+          items: [],
+          label: "new",
+        },
+        {
+          title: "Tweet Grid",
+          href: "/docs/components/tweet-grid",
+          items: [],
+        },
+        {
+          title: "Typewriter",
+          href: "/docs/components/typewriter",
+          items: [],
+        },
+        
         {
           title: "Sidebar",
           href: "/docs/components/sidebar",

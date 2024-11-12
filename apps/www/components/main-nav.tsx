@@ -29,18 +29,6 @@ export function MainNav() {
           Docs
         </Link>
         <Link
-          href="/docs/components"
-          className={cn(
-            "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/docs/components") &&
-              !pathname?.startsWith("/docs/component/chart")
-              ? "text-foreground"
-              : "text-foreground/60"
-          )}
-        >
-          Components
-        </Link>
-        <Link
           href="/blocks"
           className={cn(
             "transition-colors hover:text-foreground/80",
@@ -52,16 +40,27 @@ export function MainNav() {
           Blocks
         </Link>
         <Link
-          href="/charts"
+          href="/canvases"
           className={cn(
             "transition-colors hover:text-foreground/80",
             pathname?.startsWith("/docs/component/chart") ||
-              pathname?.startsWith("/charts")
+              pathname?.startsWith("/canvases")
               ? "text-foreground"
               : "text-foreground/60"
           )}
         >
-          Charts
+          Canvases
+        </Link>
+        <Link
+          href="/renderers"
+          className={cn(
+            "transition-colors hover:text-foreground/80",
+            pathname?.startsWith("/renderers")
+              ? "text-foreground"
+              : "text-foreground/60"
+          )}
+        >
+          Renderers
         </Link>
         <Link
           href="/themes"
@@ -75,26 +74,26 @@ export function MainNav() {
           Themes
         </Link>
         <Link
-          href="/examples"
+          href="/varients"
           className={cn(
             "hidden transition-colors hover:text-foreground/80 lg:inline-block",
-            pathname?.startsWith("/examples")
+            pathname?.startsWith("/varients")
               ? "text-foreground"
               : "text-foreground/60"
           )}
         >
-          Examples
+          Varients
         </Link>
         <Link
-          href="/colors"
+          href="/more"
           className={cn(
             "transition-colors hover:text-foreground/80",
-            pathname?.startsWith("/colors")
+            pathname?.startsWith("/more")
               ? "text-foreground"
               : "text-foreground/60"
           )}
         >
-          Colors
+          More
         </Link>
       </nav>
     </div>
