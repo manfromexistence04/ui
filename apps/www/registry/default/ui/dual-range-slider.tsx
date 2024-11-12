@@ -1,25 +1,31 @@
-'use client';
+"use client"
 
-import * as React from 'react';
-import * as SliderPrimitive from '@radix-ui/react-slider';
+import * as React from "react"
+import * as SliderPrimitive from "@radix-ui/react-slider"
 
-import { cn } from '@/lib/utils';
+import { cn } from "@/lib/utils"
 
-interface DualRangeSliderProps extends React.ComponentProps<typeof SliderPrimitive.Root> {
-  labelPosition?: 'top' | 'bottom';
-  label?: (value: number | undefined) => React.ReactNode;
+interface DualRangeSliderProps
+  extends React.ComponentProps<typeof SliderPrimitive.Root> {
+  labelPosition?: "top" | "bottom"
+  label?: (value: number | undefined) => React.ReactNode
 }
 
 const DualRangeSlider = React.forwardRef<
   React.ElementRef<typeof SliderPrimitive.Root>,
   DualRangeSliderProps
->(({ className, label, labelPosition = 'top', ...props }, ref) => {
-  const initialValue = Array.isArray(props.value) ? props.value : [props.min, props.max];
+>(({ className, label, labelPosition = "top", ...props }, ref) => {
+  const initialValue = Array.isArray(props.value)
+    ? props.value
+    : [props.min, props.max]
 
   return (
     <SliderPrimitive.Root
       ref={ref}
-      className={cn('relative flex w-full touch-none select-none items-center', className)}
+      className={cn(
+        "relative flex w-full touch-none select-none items-center",
+        className
+      )}
       {...props}
     >
       <SliderPrimitive.Track className="relative h-2 w-full grow overflow-hidden rounded-full bg-secondary">
@@ -31,9 +37,9 @@ const DualRangeSlider = React.forwardRef<
             {label && (
               <span
                 className={cn(
-                  'absolute flex w-full justify-center',
-                  labelPosition === 'top' && '-top-7',
-                  labelPosition === 'bottom' && 'top-4',
+                  "absolute flex w-full justify-center",
+                  labelPosition === "top" && "-top-7",
+                  labelPosition === "bottom" && "top-4"
                 )}
               >
                 {label(value)}
@@ -43,8 +49,8 @@ const DualRangeSlider = React.forwardRef<
         </React.Fragment>
       ))}
     </SliderPrimitive.Root>
-  );
-});
-DualRangeSlider.displayName = 'DualRangeSlider';
+  )
+})
+DualRangeSlider.displayName = "DualRangeSlider"
 
-export { DualRangeSlider };
+export { DualRangeSlider }

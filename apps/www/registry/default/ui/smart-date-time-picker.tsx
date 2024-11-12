@@ -227,8 +227,8 @@ const TimePicker = () => {
               ? 0
               : PM_AM_hour
             : PM_AM_hour === 12
-            ? 12
-            : PM_AM_hour + 12
+              ? 12
+              : PM_AM_hour + 12
 
         const part = Math.floor(
           parseInt(timeValue.split(" ")[0].split(":")[1]) / 15
@@ -377,8 +377,8 @@ const TimePicker = () => {
                       variant: isSuggested
                         ? "secondary"
                         : isSelected
-                        ? "default"
-                        : "outline",
+                          ? "default"
+                          : "outline",
                     }),
                     "h-8 w-full cursor-default px-3 text-sm outline-0 ring-0 focus-visible:border-0 focus-visible:outline-0"
                   )}
@@ -432,8 +432,8 @@ const NaturalLanguageInput = React.forwardRef<
           PM_AM_hour > 12
             ? PM_AM_hour % 12
             : PM_AM_hour === 0 || PM_AM_hour === 12
-            ? 12
-            : PM_AM_hour
+              ? 12
+              : PM_AM_hour
 
         onValueChange(parsedDateTime)
         setInputValue(formatDateTime(parsedDateTime))
@@ -458,8 +458,8 @@ const NaturalLanguageInput = React.forwardRef<
               PM_AM_hour > 12
                 ? PM_AM_hour % 12
                 : PM_AM_hour === 0 || PM_AM_hour === 12
-                ? 12
-                : PM_AM_hour
+                  ? 12
+                  : PM_AM_hour
 
             onValueChange(parsedDateTime)
             setInputValue(formatDateTime(parsedDateTime))

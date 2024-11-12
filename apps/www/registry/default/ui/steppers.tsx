@@ -1,14 +1,15 @@
-import React from 'react';
-import { H4 } from '@/components/ui/heading-with-anchor';
-import { cn } from '@/lib/utils';
-import CodeHighlight from '@/app/(docs)/docs/components/code-card/parts/code-highlight';
-import fs from 'fs/promises';
-import AdStepper from '@/components/ad/ad-stepper';
+import fs from "fs/promises"
+import React from "react"
+
+import { cn } from "@/lib/utils"
+import { H4 } from "@/components/ui/heading-with-anchor"
+import AdStepper from "@/components/ad/ad-stepper"
+import CodeHighlight from "@/app/(docs)/docs/components/code-card/parts/code-highlight"
 
 interface StepperProps {
-  children?: React.ReactNode;
-  title?: string;
-  step?: number;
+  children?: React.ReactNode
+  title?: string
+  step?: number
 }
 const Stepper = ({ title, children, step }: StepperProps) => {
   return (
@@ -19,39 +20,41 @@ const Stepper = ({ title, children, step }: StepperProps) => {
         </span>
         <H4>{title}</H4>
       </div>
-      <div className="my-3 ml-5 border-l-2 border-l-gray-200 pl-8">{children}</div>
+      <div className="my-3 ml-5 border-l-2 border-l-gray-200 pl-8">
+        {children}
+      </div>
     </div>
-  );
-};
+  )
+}
 
 interface SteppersBaseProps {
-  steps?: Omit<StepperProps, 'step'>[];
-  className?: string;
-  withEnd?: boolean;
+  steps?: Omit<StepperProps, "step">[]
+  className?: string
+  withEnd?: boolean
 }
 
 interface SteppersWithInstallProps extends SteppersBaseProps {
-  withInstall: true;
+  withInstall: true
   /** 要複製的程式碼 */
-  codePath: string;
+  codePath: string
   /** npm install script */
-  installScript?: string;
+  installScript?: string
 }
 
 interface SteppersWithoutInstallProps extends SteppersBaseProps {
-  withInstall?: false;
+  withInstall?: false
 }
 
-type SteppersProps = SteppersWithInstallProps | SteppersWithoutInstallProps;
+type SteppersProps = SteppersWithInstallProps | SteppersWithoutInstallProps
 
 export const Steppers = async (props: SteppersProps) => {
-  const { steps, className, withEnd, withInstall } = props;
+  const { steps, className, withEnd, withInstall } = props
 
-  let installCode = '';
+  let installCode = ""
   if (withInstall && props.codePath) {
-    installCode = await fs.readFile(props.codePath, 'utf8');
+    installCode = await fs.readFile(props.codePath, "utf8")
   }
-  const withInstallOffset = withInstall ? (props.installScript ? 2 : 1) : 0;
+  const withInstallOffset = withInstall ? (props.installScript ? 2 : 1) : 0
   return (
     <>
       <div className={cn(className)}>
@@ -74,7 +77,11 @@ export const Steppers = async (props: SteppersProps) => {
           </>
         )}
         {steps?.map((props, index) => (
-          <Stepper key={props.title} {...props} step={index + 1 + withInstallOffset} />
+          <Stepper
+            key={props.title}
+            {...props}
+            step={index + 1 + withInstallOffset}
+          />
         ))}
         {withEnd && (
           <Stepper
@@ -85,5 +92,5 @@ export const Steppers = async (props: SteppersProps) => {
       </div>
       <AdStepper />
     </>
-  );
-};
+  )
+}

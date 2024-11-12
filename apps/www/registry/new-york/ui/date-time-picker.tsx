@@ -18,7 +18,7 @@ type TimeFormat = "hours" | "minutes" | "seconds" | "am/pm"
 type DateTimeArray<T extends DateFormat | TimeFormat> = T[]
 type DateTimeFormatDefaults = [
   DateTimeArray<DateFormat>,
-  DateTimeArray<TimeFormat>
+  DateTimeArray<TimeFormat>,
 ]
 
 const DEFAULTS = [
