@@ -6,13 +6,13 @@ import { Command as CommandPrimitive, useCommandState } from "cmdk"
 import { X } from "lucide-react"
 
 import { cn } from "@/lib/utils"
-import { Badge } from "@/components/ui/badge"
+import { Badge } from "@/registry/default/ui/badge"
 import {
   Command,
   CommandGroup,
   CommandItem,
   CommandList,
-} from "@/components/ui/command"
+} from "@/registry/default/ui/command"
 
 export interface Option {
   value: string
